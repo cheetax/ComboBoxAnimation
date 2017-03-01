@@ -1,0 +1,410 @@
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\App.g.i.cs
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\App.g.cs
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\BlankPage1.g.i.cs
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\BlankPage1.g.cs
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\MainPage.g.i.cs
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\MainPage.g.cs
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\XamlTypeInfo.g.cs
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\Dictionary.xaml
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\MainPage.xaml
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\App.xaml
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\BlankPage1.xaml
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\Themes\Generic.xaml
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\Dictionary.xbf
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\MainPage.xbf
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\App.xbf
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\BlankPage1.xbf
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\Themes\Generic.xbf
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\XamlSaveStateFile.xml
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\App.xbf
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\BlankPage1.xbf
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Dictionary.xbf
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\MainPage.xbf
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Themes\Generic.xbf
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\ComboBoxAnimation.xr.xml
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\ComboBoxAnimation.exe
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\ComboBoxAnimation.pdb
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\resources.pri
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\AppxManifest.xml
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Core\App3.exe
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Core\AppxManifest.xml
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Core\ComboBoxAnimation.exe
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\ComboBoxAnimation.build.appxrecipe
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Microsoft.CSharp.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ComponentModel.DataAnnotations.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Core.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Net.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Numerics.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.Serialization.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ServiceModel.Web.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ServiceModel.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Windows.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Xml.Linq.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Xml.Serialization.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Xml.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Microsoft.VisualBasic.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Microsoft.Win32.Primitives.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Private.DataContractSerialization.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.AppContext.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Collections.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Collections.Concurrent.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Collections.Immutable.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Collections.NonGeneric.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Collections.Specialized.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ComponentModel.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ComponentModel.Annotations.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Data.Common.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Diagnostics.Contracts.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Diagnostics.Debug.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Diagnostics.StackTrace.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Diagnostics.Tools.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Diagnostics.Tracing.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Dynamic.Runtime.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Globalization.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Globalization.Calendars.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Globalization.Extensions.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.IO.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.IO.Compression.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\ClrCompression.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.IO.Compression.ZipFile.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.IO.FileSystem.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.IO.FileSystem.Primitives.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.IO.IsolatedStorage.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Linq.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Linq.Expressions.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Linq.Parallel.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Linq.Queryable.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Net.Http.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Net.Http.Rtc.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Net.NetworkInformation.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Net.Primitives.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Net.Requests.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Net.Sockets.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Net.WebHeaderCollection.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Numerics.Vectors.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ObjectModel.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Private.Networking.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Private.ServiceModel.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Private.Uri.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.Context.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.DispatchProxy.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.Emit.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.Emit.ILGeneration.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.Emit.Lightweight.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.Extensions.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.Metadata.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.Primitives.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.TypeExtensions.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Resources.ResourceManager.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.Extensions.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.Handles.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.InteropServices.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.Numerics.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.Serialization.Json.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.Serialization.Primitives.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.Serialization.Xml.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.WindowsRuntime.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Security.Claims.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Security.Principal.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ServiceModel.Duplex.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ServiceModel.Http.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ServiceModel.NetTcp.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ServiceModel.Primitives.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ServiceModel.Security.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Text.Encoding.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Text.Encoding.CodePages.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Text.Encoding.Extensions.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Text.RegularExpressions.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Threading.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Threading.Overlapped.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Threading.Tasks.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Threading.Tasks.Dataflow.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Threading.Tasks.Parallel.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Threading.Timer.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Xml.ReaderWriter.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Xml.XDocument.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Xml.XmlDocument.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Xml.XmlSerializer.dll
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\ComboBoxAnimation.exe
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\ComboBoxAnimation.pdb
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\ResourceHandlingTask.state
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.Microsoft.CSharp.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.AppContext.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Collections.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Collections.Concurrent.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Collections.Immutable.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Collections.Specialized.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Data.Common.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Globalization.Extensions.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.IO.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.IO.Compression.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.IO.FileSystem.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Linq.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Linq.Expressions.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Linq.Parallel.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Linq.Queryable.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Net.Http.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Net.Requests.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Numerics.Vectors.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.ObjectModel.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Private.Networking.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Private.ServiceModel.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Private.Uri.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Reflection.Context.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Reflection.Metadata.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Runtime.Extensions.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Runtime.Numerics.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Security.Claims.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Threading.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Threading.Overlapped.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Xml.XDocument.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\priconfig.xml
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\priconfig.xml.intermediate
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\layout.resfiles
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\layout.resfiles.intermediate
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\resources.resfiles
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\resources.resfiles.intermediate
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\pri.resfiles
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\pri.resfiles.intermediate
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\qualifiers.txt
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\qualifiers.txt.intermediate
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\resources.en-us.resfiles
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\resources.en-us.resfiles.intermediate
+D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\ProjectArchitectures.txt
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\App.xbf
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\BlankPage1.xbf
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Dictionary.xbf
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\MainPage.xbf
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Themes\Generic.xbf
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\ComboBoxAnimation.xr.xml
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\ComboBoxAnimation.exe
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\ComboBoxAnimation.pdb
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\resources.pri
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\AppxManifest.xml
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Core\AppxManifest.xml
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Core\ComboBoxAnimation.exe
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\ComboBoxAnimation.build.appxrecipe
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Microsoft.CSharp.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ComponentModel.DataAnnotations.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Core.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Net.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Numerics.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.Serialization.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ServiceModel.Web.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ServiceModel.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Windows.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Xml.Linq.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Xml.Serialization.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Xml.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Microsoft.VisualBasic.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Microsoft.Win32.Primitives.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Private.DataContractSerialization.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.AppContext.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Collections.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Collections.Concurrent.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Collections.Immutable.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Collections.NonGeneric.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Collections.Specialized.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ComponentModel.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ComponentModel.Annotations.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Data.Common.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Diagnostics.Contracts.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Diagnostics.Debug.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Diagnostics.StackTrace.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Diagnostics.Tools.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Diagnostics.Tracing.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Dynamic.Runtime.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Globalization.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Globalization.Calendars.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Globalization.Extensions.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.IO.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.IO.Compression.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\ClrCompression.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.IO.Compression.ZipFile.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.IO.FileSystem.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.IO.FileSystem.Primitives.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.IO.IsolatedStorage.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Linq.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Linq.Expressions.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Linq.Parallel.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Linq.Queryable.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Net.Http.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Net.Http.Rtc.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Net.NetworkInformation.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Net.Primitives.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Net.Requests.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Net.Sockets.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Net.WebHeaderCollection.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Numerics.Vectors.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ObjectModel.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Private.Networking.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Private.ServiceModel.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Private.Uri.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.Context.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.DispatchProxy.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.Emit.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.Emit.ILGeneration.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.Emit.Lightweight.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.Extensions.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.Metadata.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.Primitives.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Reflection.TypeExtensions.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Resources.ResourceManager.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.Extensions.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.Handles.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.InteropServices.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.Numerics.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.Serialization.Json.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.Serialization.Primitives.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.Serialization.Xml.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.WindowsRuntime.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Security.Claims.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Security.Principal.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ServiceModel.Duplex.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ServiceModel.Http.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ServiceModel.NetTcp.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ServiceModel.Primitives.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.ServiceModel.Security.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Text.Encoding.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Text.Encoding.CodePages.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Text.Encoding.Extensions.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Text.RegularExpressions.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Threading.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Threading.Overlapped.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Threading.Tasks.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Threading.Tasks.Dataflow.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Threading.Tasks.Parallel.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Threading.Timer.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Xml.ReaderWriter.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Xml.XDocument.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Xml.XmlDocument.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Xml.XmlSerializer.dll
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\ComboBoxAnimation.csprojResolveAssemblyReference.cache
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\App.g.i.cs
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\App.g.cs
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\BlankPage1.g.i.cs
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\BlankPage1.g.cs
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\MainPage.g.i.cs
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\MainPage.g.cs
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\XamlTypeInfo.g.cs
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\App.xaml
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\BlankPage1.xaml
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\Dictionary.xaml
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\MainPage.xaml
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\Themes\Generic.xaml
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\App.xbf
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\BlankPage1.xbf
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\Dictionary.xbf
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\MainPage.xbf
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\Themes\Generic.xbf
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\XamlSaveStateFile.xml
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\ComboBoxAnimation.exe
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\ComboBoxAnimation.pdb
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\ResourceHandlingTask.state
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.Microsoft.CSharp.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.AppContext.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Collections.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Collections.Concurrent.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Collections.Immutable.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Collections.Specialized.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Data.Common.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Globalization.Extensions.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.IO.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.IO.Compression.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.IO.FileSystem.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Linq.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Linq.Expressions.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Linq.Parallel.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Linq.Queryable.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Net.Http.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Net.Requests.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Numerics.Vectors.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.ObjectModel.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Private.Networking.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Private.ServiceModel.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Private.Uri.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Reflection.Context.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Reflection.Metadata.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Runtime.Extensions.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Runtime.Numerics.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Security.Claims.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Threading.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Threading.Overlapped.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Xml.XDocument.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\priconfig.xml
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\priconfig.xml.intermediate
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\layout.resfiles
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\layout.resfiles.intermediate
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\resources.resfiles
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\resources.resfiles.intermediate
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\pri.resfiles
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\pri.resfiles.intermediate
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\qualifiers.txt
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\qualifiers.txt.intermediate
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\resources.en-us.resfiles
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\resources.en-us.resfiles.intermediate
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\ProjectArchitectures.txt

@@ -1,0 +1,2 @@
+MainPackage=D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x64\Release\Upload\ComboBoxAnimation_1.1.0.0_x64.appx
+SymbolPackage=D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\AppPackages\ComboBoxAnimation_1.1.0.0\ComboBoxAnimation_1.1.0.0_x64.appxsym

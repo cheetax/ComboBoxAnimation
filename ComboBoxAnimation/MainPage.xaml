@@ -1,0 +1,33 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ComboBoxAnimation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:control="using:ComboBoxAnimation.Controls"
+    xmlns:ViewModel="using:ComboBoxAnimation.ViewModel"
+    x:Class="ComboBoxAnimation.MainPage"
+    mc:Ignorable="d">
+
+    <Grid  Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" >
+        <Grid.DataContext>
+            <ViewModel:ModelView/>
+        </Grid.DataContext>
+        
+        <StackPanel Orientation="Horizontal" Grid.RowSpan="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <control:ComboBoxUser ItemSource="{Binding Users}" SelectedItem="{Binding SelectUser, Mode=TwoWay}" Background="Transparent" HorizontalAlignment="Right" AddItem="{Binding AddUser, Mode=TwoWay}" Margin="0,0,0,330" PressedAddButton="ComboBoxUser_PressedAddButton" PressedSettingsButton="ComboBoxUser_PressedSettingsButton">
+                <control:ComboBoxUser.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <!--<Image Width="30" Height="30" Source="Assets/SplashScreen.png"/>-->
+                            <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE13D;" Margin=" 0 0 10 0" />
+                            <TextBlock Text="{Binding Name}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </control:ComboBoxUser.ItemTemplate>
+            </control:ComboBoxUser>
+        </StackPanel>
+        <!--<TextBox/>-->
+    </Grid>
+</Page>
