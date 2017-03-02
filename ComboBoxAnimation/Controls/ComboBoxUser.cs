@@ -1,8 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
-using System.Reflection;
 using Windows.Foundation;
-using Windows.Graphics.Display;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -11,7 +9,7 @@ using Windows.UI.Xaml.Data;
 
 namespace ComboBoxAnimation.Controls
 {
-    public sealed class ComboBoxUser : Control , INotifyPropertyChanged
+    public sealed class ComboBoxUser : Control, INotifyPropertyChanged
 
     {
         public event PropertyChangedEventHandler PropertyChanged = delegate { };
@@ -22,9 +20,6 @@ namespace ComboBoxAnimation.Controls
         public ComboBoxUser()
         {
             this.DefaultStyleKey = typeof(ComboBoxUser);
-            
-            
-
         }
 
         ModelViewComboBox model;
@@ -43,7 +38,7 @@ namespace ComboBoxAnimation.Controls
 
 
         protected override void OnApplyTemplate()
-        {            
+        {
             _Popup = GetTemplateChild("Popup") as Popup;
             _PopupPanel = GetTemplateChild("PopupPanel") as StackPanel;
             _ListBox = GetTemplateChild("listBox") as ListBox;
@@ -57,44 +52,39 @@ namespace ComboBoxAnimation.Controls
             _AddButton = GetTemplateChild("AddButton") as FontIcon;
             _AddButton.PointerPressed += (s, e) => PressedAddButton?.Invoke(s, e);
 
-            _SettingsButton = GetTemplateChild("SettingsButton") as FontIcon;            
+            _SettingsButton = GetTemplateChild("SettingsButton") as FontIcon;
             _SettingsButton.PointerPressed += (s, e) => PressedSettingsButton?.Invoke(s, e);
 
             model = _GridRoot.DataContext as ModelViewComboBox;
 
             ApplicationView bounds = ApplicationView.GetForCurrentView();
-            bounds.VisibleBoundsChanged += (s, e) =>
-            {
-                var scaleFactor = DisplayInformation.GetForCurrentView().RawPixelsPerViewPixel;
-                var size = new Size(s.VisibleBounds.Width * scaleFactor, s.VisibleBounds.Height * scaleFactor);
-                if (size.Width < 800 )
-                {
-                    
-                }
-            };
+
+            Bounds_VisibleBoundsChanged(bounds, null);
+
+            bounds.VisibleBoundsChanged += Bounds_VisibleBoundsChanged;
 
             _ToolsPanel.SizeChanged += (s, e) =>
-            {
-                model.ToolsPanelHeigth = ((FrameworkElement)s).ActualHeight;
-                model.ToolsPanelWidth = ((FrameworkElement)s).ActualWidth;
-                ((FrameworkElement)s).Width = model.ToolsPanelWidth;
-                model.GridRootWidth += ((FrameworkElement)_GridRoot).ActualWidth + model.ToolsPanelWidth;
-                ((FrameworkElement)s).Visibility = Visibility.Collapsed;
-            };
+                {
+                    model.ToolsPanelHeigth = ((FrameworkElement)s).ActualHeight;
+                    model.ToolsPanelWidth = ((FrameworkElement)s).ActualWidth;
+                    ((FrameworkElement)s).Width = model.ToolsPanelWidth;
+                    model.GridRootWidth += ((FrameworkElement)_GridRoot).ActualWidth + model.ToolsPanelWidth;
+                    ((FrameworkElement)s).Visibility = Visibility.Collapsed;
+                };
             _Popup.IsOpen = true;
             _PopupPanel.SizeChanged += (s, e) =>
-            {                
-                model.Lenght = ((FrameworkElement)s).ActualHeight;                         
+            {
+                model.Lenght = ((FrameworkElement)s).ActualHeight;
                 _ListBox.MaxHeight = ((FrameworkElement)(_ListBox.ContainerFromIndex(1))).ActualHeight * ((MaxCountItems == -1) ? double.PositiveInfinity : MaxCountItems);
                 _Popup.IsOpen = model.IsChecked;
             };
-            
+
             _ListBox.SelectionChanged += (s, e) =>
-            {
-                _ContentPresenter.Content = ((ListBox)s).SelectedItem;
-                model.IsChecked = false;
-                UpdateStates(true);
-            };
+                        {
+                            _ContentPresenter.Content = ((ListBox)s).SelectedItem;
+                            model.IsChecked = false;
+                            UpdateStates(true);
+                        };
             _Border.PointerEntered += (s, e) =>  // Есть фокус
             {
                 VisualStateManager.GoToState(this, "PointerOver", true);
@@ -105,25 +95,25 @@ namespace ComboBoxAnimation.Controls
             _GridRoot.PointerExited += (s, e) =>  // Нет фокуса
             {
                 VisualStateManager.GoToState(this, "Normal", true);
-                if (!model.IsChecked ) VisualStateManager.GoToState(this, "ClosedToolsPanelWide", true);
+                if (!model.IsChecked) VisualStateManager.GoToState(this, "ClosedToolsPanelWide", true);
             };
             _Border.PointerPressed += (s, e) =>
-            {
-                model.IsChecked = !model.IsChecked;
-                _PopupPanel.Width = _Border.ActualWidth;
-                UpdateStates(true); 
-            };
-            
+                        {
+                            model.IsChecked = !model.IsChecked;
+                            _PopupPanel.Width = _Border.ActualWidth;
+                            UpdateStates(true);
+                        };
+
             _AddButton.PointerEntered += (s, e) =>  // Есть фокус
             {
                 VisualStateManager.GoToState(this, "PointerOverAddButton", true);
-                
+
             };
 
             _AddButton.PointerExited += (s, e) =>  // Нет фокуса
             {
                 VisualStateManager.GoToState(this, "Normal", true);
-                
+
             };
             _SettingsButton.PointerEntered += (s, e) =>  // Есть фокус
             {
@@ -137,7 +127,19 @@ namespace ComboBoxAnimation.Controls
 
         }
 
-        
+        private void Bounds_VisibleBoundsChanged(ApplicationView sender, object args)
+        {
+            var size = new Size(sender.VisibleBounds.Width, sender.VisibleBounds.Height);
+            if (size.Width < 500)
+            {
+                VisualStateManager.GoToState(this, "NarrowStates", true);
+            }
+            else
+            {
+                VisualStateManager.GoToState(this, "WideStates", true);
+            }
+        }
+
         void UpdateStates(bool useTransitions)
         {
             if (model.IsChecked)
@@ -165,7 +167,7 @@ namespace ComboBoxAnimation.Controls
         {
             get { return (object)GetValue(SelectedItemProperty); }
             set { SetValue(SelectedItemProperty, value); NotifyPropertyChanged(); }
-        }     
+        }
 
         public DataTemplate ItemTemplate
         {
@@ -190,7 +192,7 @@ namespace ComboBoxAnimation.Controls
 
         public static readonly DependencyProperty AddItemProperty =
             DependencyProperty.Register(nameof(AddItem), typeof(string), typeof(ComboBoxUser), null);
-        
+
         public static readonly DependencyProperty MaxCountItemsProperty =
             DependencyProperty.Register(nameof(MaxCountItems), typeof(int), typeof(ComboBoxUser), new PropertyMetadata(-1));
     }
@@ -214,6 +216,7 @@ namespace ComboBoxAnimation.Controls
         public double ToolsPanelHeigth { get; set; }
         public double ToolsPanelWidth { get; set; }
         public double GridRootWidth { get; set; }
+        public Size Size { get; set; }
 
         int selItem;
 
@@ -250,12 +253,12 @@ namespace ComboBoxAnimation.Controls
             {
                 case "Double":
                     return -(double)value;
-                case "Int32":                
+                case "Int32":
                     return -(int)value;
                 default:
                     return 0;
             }
-                 
+
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, string language)
@@ -271,7 +274,7 @@ namespace ComboBoxAnimation.Controls
             switch (value.GetType().Name)
             {
                 case "Double":
-                    return new GridLength((double)value);                
+                    return new GridLength((double)value);
                 default:
                     return GridLength.Auto;
             }

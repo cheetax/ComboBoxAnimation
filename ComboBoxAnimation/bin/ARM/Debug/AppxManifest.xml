@@ -7,11 +7,11 @@
 
  Дополнительные сведения о файлах манифестов приложений см. по адресу http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="8acfa4bb-43ca-4ca8-8d8b-78a15e74a20d" Publisher="CN=User" Version="1.0.0.0" ProcessorArchitecture="arm" />
+  <Identity Name="44368Cheetax.ComboBoxAnimation" Publisher="CN=User" Version="1.1.0.0" ProcessorArchitecture="arm" />
   <mp:PhoneIdentity PhoneProductId="8acfa4bb-43ca-4ca8-8d8b-78a15e74a20d" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>App3</DisplayName>
-    <PublisherDisplayName>User</PublisherDisplayName>
+    <DisplayName>ComboBoxAnimation</DisplayName>
+    <PublisherDisplayName>Cheetax</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>

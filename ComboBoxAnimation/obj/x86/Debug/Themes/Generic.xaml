@@ -281,28 +281,24 @@
 
                                 </VisualState>
                             </VisualStateGroup>
-                            <!--<VisualStateGroup x:Name="WindowSizeStates">
-                                <VisualState x:Name="WideStates">
-                                    <VisualState.StateTriggers>
-                                        <AdaptiveTrigger MinWindowWidth="800"/>
-                                    </VisualState.StateTriggers>
+                            <VisualStateGroup x:Name="WindowSizeStates">
+                                <VisualState x:Name="WideStates">                                    
                                     <VisualState.Setters>
-                                        <Setter Target="ToolsPanel.RelativePanel.Below" Value=""/>
-                                        <Setter Target="ToolsPanel.RelativePanel.LeftOf" Value="ContentPresenter"/>
-                                        <Setter Target="Green.Fill" Value="Red"/>
+                                        <Setter Target="ToolsPanel.(RelativePanel.Below)" Value="{x:Null}"/>
+                                        <Setter Target="ToolsPanel.(RelativePanel.RightOf)" Value="Separator"/>
+                                        <Setter Target="ToolsPanel.(RelativePanel.AlignVerticalCenterWith)" Value="Separator"/>
+                                        <Setter Target="Green.Fill" Value="Yellow"/>
                                     </VisualState.Setters>
                                 </VisualState>
-                                <VisualState x:Name="NarrowStates">
-                                    <VisualState.StateTriggers>
-                                        <AdaptiveTrigger MinWindowWidth="0"/>
-                                    </VisualState.StateTriggers>
+                                <VisualState x:Name="NarrowStates">                                    
                                     <VisualState.Setters>
-                                        <Setter Target="ToolsPanel.RelativePanel.Below" Value="ContentPresenter"/>
-                                        <Setter Target="ToolsPanel.RelativePanel.LeftOf" Value=""/>
-                                        <Setter Target="Green.Fill" Value="Grey"/>
+                                        <Setter Target="ToolsPanel.(RelativePanel.Below)" Value="ContentPresenter"/>
+                                        <Setter Target="ToolsPanel.(RelativePanel.RightOf)" Value="{x:Null}"/>
+                                        <Setter Target="ToolsPanel.(RelativePanel.AlignVerticalCenterWith)" Value="{x:Null}"/>
+                                        <Setter Target="Green.Fill" Value="Green"/>
                                     </VisualState.Setters>
                                 </VisualState>
-                            </VisualStateGroup>-->
+                            </VisualStateGroup>
                             <VisualStateGroup x:Name="ToolsPanelStates">
                                 <VisualState x:Name="OpenedToolsPanelWide">
                                     <Storyboard >
@@ -406,10 +402,7 @@
                         <Rectangle x:Name="Green" Grid.Column="1" Fill="Green" />
                         <Rectangle Grid.Column="2" Fill="Orange"/>
                         <RelativePanel Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0">
-                            <Border Name="Background"
-                                    Grid.Row="0"
-                                    Grid.Column="1"
-                                    Grid.ColumnSpan="2" 
+                            <Border Name="Background" 
                                     Canvas.ZIndex="10"
                                     RelativePanel.AlignLeftWithPanel="True"
                                     RelativePanel.AlignBottomWithPanel="True"
@@ -418,12 +411,11 @@
                                     BorderBrush="{TemplateBinding BorderBrush}"
                                     BorderThickness="{TemplateBinding BorderThickness}"
                                     Background="{TemplateBinding Background}"/>
-                            <ContentPresenter Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="1"
-                                                  Name="ContentPresenter"  Margin="5 5" 
-                                                  HorizontalAlignment="Left"
-                                                  HorizontalContentAlignment="Left"
+                            <ContentPresenter Name="ContentPresenter"  Margin="5 5" 
+                                              HorizontalContentAlignment="Left"
                                               RelativePanel.AlignTopWithPanel="True"/>
-                            <Rectangle Fill="Red" x:Name="Separator" RelativePanel.RightOf="ContentPresenter" RelativePanel.LeftOf="DropDownGlyph" RelativePanel.AlignVerticalCenterWith="ContentPresenter"/>
+                            <Rectangle Fill="Red" Width="0" Height="0" x:Name="Separator" RelativePanel.LeftOf="ContentPresenter" RelativePanel.AlignVerticalCenterWith="ContentPresenter"/>
+                            <Rectangle Fill="Red" Width="1" Height="20" x:Name="Separator1" RelativePanel.RightOf="ContentPresenter" RelativePanel.LeftOf="DropDownGlyph" RelativePanel.AlignVerticalCenterWith="ContentPresenter"/>
                             <FontIcon Name="DropDownGlyph" Grid.Column="2"
                                   Grid.Row="0"
                                   FontFamily="Segoe MDL2 Assets" 
@@ -439,9 +431,9 @@
                                     <CompositeTransform Rotation="0"/>
                                 </FontIcon.RenderTransform>
                             </FontIcon>
-                            <Border x:Name="ToolsPanel" HorizontalAlignment="Left" Grid.Column="1" 
-                                    RelativePanel.AlignVerticalCenterWith="ContentPresenter"
-                                    RelativePanel.AlignLeftWithPanel="True">
+                            <Border x:Name="ToolsPanel" 
+                                    RelativePanel.AlignVerticalCenterWith="Separator"
+                                    RelativePanel.RightOf="Separator">
                                 <Border.RenderTransform>
                                     <CompositeTransform TranslateY="0"/>
                                 </Border.RenderTransform>
@@ -453,15 +445,11 @@
                                       Margin="8 0"
                                       FontFamily="Segoe MDL2 Assets" 
                                       Glyph="&#xE109;"
-                                      FontSize="18" 
-                                      RelativePanel.AlignLeftWithPanel="True"
-                                      RelativePanel.AlignVerticalCenterWithPanel="True"/>
+                                      FontSize="18"/>
                                     <FontIcon x:Name="SettingsButton"
                                       Margin="8 0"
                                       FontFamily="Segoe MDL2 Assets" 
-                                      Glyph="&#xE115;" FontSize="18"
-                                      RelativePanel.RightOf="AddButton"
-                                      RelativePanel.AlignVerticalCenterWithPanel="True"/>
+                                      Glyph="&#xE115;" FontSize="18"/>
                                 </StackPanel>
                             </Border>
                         </RelativePanel>

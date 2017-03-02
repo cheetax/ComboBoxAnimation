@@ -17,6 +17,7 @@
     <RootPropertyPathName Name="Name" />
     <RootPropertyPathName Name="ToolsPanelWidth" />
     <RootPropertyPathName Name="GridRootWidth" />
+    <RootPropertyPathName Name="ToolsPanelHeigth" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
@@ -128,7 +129,6 @@
       <RootProperty Name="Background" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="AddItem" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="ItemTemplate" />
       <RootEvent Name="PressedAddButton" />
       <RootEvent Name="PressedSettingsButton" />
@@ -136,6 +136,7 @@
     <RootType FullName="Windows.UI.Xaml.Setter">
       <RootProperty Name="Property" />
       <RootProperty Name="Value" />
+      <RootProperty Name="Target" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
       <RootProperty Name="TargetType" />
@@ -169,6 +170,8 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.VisualState">
       <RootProperty Name="Storyboard" />
+      <RootProperty Name="StateTriggers" />
+      <RootProperty Name="Setters" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.Storyboard">
       <RootProperty Name="Children" />
@@ -256,6 +259,14 @@
       <RootMethod Name="SetAlignRightWithPanel" />
       <RootMethod Name="GetRightOf" />
       <RootMethod Name="SetRightOf" />
+      <RootMethod Name="GetAlignBottomWithPanel" />
+      <RootMethod Name="SetAlignBottomWithPanel" />
+      <RootMethod Name="GetAlignTopWithPanel" />
+      <RootMethod Name="SetAlignTopWithPanel" />
+      <RootMethod Name="GetLeftOf" />
+      <RootMethod Name="SetLeftOf" />
+      <RootMethod Name="GetAlignVerticalCenterWith" />
+      <RootMethod Name="SetAlignVerticalCenterWith" />
       <RootMethod Name="GetAlignVerticalCenterWithPanel" />
       <RootMethod Name="SetAlignVerticalCenterWithPanel" />
     </RootType>
@@ -380,6 +391,9 @@
     <RootType FullName="Windows.UI.Xaml.ResourceDictionary" />
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem" />
     <RootType FullName="ComboBoxAnimation.ViewModel.ModelView" />
+    <RootType FullName="Windows.UI.Xaml.AdaptiveTrigger">
+      <RootProperty Name="MinWindowWidth" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
     </RootType>

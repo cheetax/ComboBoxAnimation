@@ -17,7 +17,7 @@
             <VisualStateGroup>
                 <VisualState>
                     <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="500"/>
+                        <AdaptiveTrigger MinWindowWidth="800"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
                         <Setter Target="rect.Fill" Value="Red"/>
@@ -28,8 +28,8 @@
         
         <StackPanel Orientation="Vertical" Grid.RowSpan="1" HorizontalAlignment="Center" VerticalAlignment="Center">
             
-            <Rectangle Width="100" Height="30" x:Name="rect"/>
-            <control:ComboBoxUser ItemSource="{Binding Users}" SelectedItem="{Binding SelectUser, Mode=TwoWay}" Background="Transparent" HorizontalAlignment="Right" AddItem="{Binding AddUser, Mode=TwoWay}" PressedAddButton="ComboBoxUser_PressedAddButton" PressedSettingsButton="ComboBoxUser_PressedSettingsButton">
+            <Rectangle x:ConnectionId='1' Width="100" Height="30" x:Name="rect"/>
+            <control:ComboBoxUser x:ConnectionId='2' ItemSource="{Binding Users}" SelectedItem="{Binding SelectUser, Mode=TwoWay}" Background="Transparent" HorizontalAlignment="Right" AddItem="{Binding AddUser, Mode=TwoWay}"                                                                                                            >
                 <control:ComboBoxUser.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
@@ -44,3 +44,4 @@
         <!--<TextBox/>-->
     </Grid>
 </Page>
+

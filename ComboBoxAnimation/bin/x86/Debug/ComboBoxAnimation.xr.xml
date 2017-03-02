@@ -267,8 +267,6 @@
       <RootMethod Name="SetLeftOf" />
       <RootMethod Name="GetAlignVerticalCenterWith" />
       <RootMethod Name="SetAlignVerticalCenterWith" />
-      <RootMethod Name="GetAlignVerticalCenterWithPanel" />
-      <RootMethod Name="SetAlignVerticalCenterWithPanel" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.FontIcon">
       <RootProperty Name="FontFamily" />
@@ -401,5 +399,6 @@
     <RootType FullName="ComboBoxAnimation.Controls.ModelViewComboBox" />
     <RootType FullName="ComboBoxAnimation.Controls.NegativeValue" />
     <RootType FullName="ComboBoxAnimation.Controls.DoubleToGridLength" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
   </Roots.RootTypes>
 </Roots>

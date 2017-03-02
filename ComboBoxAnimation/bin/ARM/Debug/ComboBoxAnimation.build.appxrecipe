@@ -10,19 +10,19 @@
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>8acfa4bb-43ca-4ca8-8d8b-78a15e74a20d</PackageIdentityName>
     <PackageIdentityPublisher>CN=User</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\ARM\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\ARM\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\ARM\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\ARM\Debug\ComboBoxAnimation.exe">
+    <AppxPackagedFile Include="D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\ARM\Debug\ComboBoxAnimation.exe">
       <PackagePath>entrypoint\ComboBoxAnimation.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -334,47 +334,47 @@
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\ARM\Debug\ComboBoxAnimation.xr.xml">
+    <AppxPackagedFile Include="D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\ARM\Debug\ComboBoxAnimation.xr.xml">
       <PackagePath>ComboBoxAnimation.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\ARM\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\bin\ARM\Debug\Core\ComboBoxAnimation.exe">
+    <AppxPackagedFile Include="D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\ARM\Debug\Core\ComboBoxAnimation.exe">
       <PackagePath>ComboBoxAnimation.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
