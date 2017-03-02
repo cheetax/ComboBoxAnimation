@@ -1,5 +1,9 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Reflection;
+using Windows.Foundation;
+using Windows.Graphics.Display;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -18,6 +22,9 @@ namespace ComboBoxAnimation.Controls
         public ComboBoxUser()
         {
             this.DefaultStyleKey = typeof(ComboBoxUser);
+            
+            
+
         }
 
         ModelViewComboBox model;
@@ -55,6 +62,17 @@ namespace ComboBoxAnimation.Controls
 
             model = _GridRoot.DataContext as ModelViewComboBox;
 
+            ApplicationView bounds = ApplicationView.GetForCurrentView();
+            bounds.VisibleBoundsChanged += (s, e) =>
+            {
+                var scaleFactor = DisplayInformation.GetForCurrentView().RawPixelsPerViewPixel;
+                var size = new Size(s.VisibleBounds.Width * scaleFactor, s.VisibleBounds.Height * scaleFactor);
+                if (size.Width < 800 )
+                {
+                    
+                }
+            };
+
             _ToolsPanel.SizeChanged += (s, e) =>
             {
                 model.ToolsPanelHeigth = ((FrameworkElement)s).ActualHeight;
@@ -80,13 +98,14 @@ namespace ComboBoxAnimation.Controls
             _Border.PointerEntered += (s, e) =>  // Есть фокус
             {
                 VisualStateManager.GoToState(this, "PointerOver", true);
-                VisualStateManager.GoToState(this, "OpenedToolsPanel", true);
+
+                VisualStateManager.GoToState(this, "OpenedToolsPanelWide", true);
             };
 
             _GridRoot.PointerExited += (s, e) =>  // Нет фокуса
             {
                 VisualStateManager.GoToState(this, "Normal", true);
-                if (!model.IsChecked ) VisualStateManager.GoToState(this, "ClosedToolsPanel", true);
+                if (!model.IsChecked ) VisualStateManager.GoToState(this, "ClosedToolsPanelWide", true);
             };
             _Border.PointerPressed += (s, e) =>
             {
@@ -118,17 +137,18 @@ namespace ComboBoxAnimation.Controls
 
         }
 
+        
         void UpdateStates(bool useTransitions)
         {
             if (model.IsChecked)
             {
                 VisualStateManager.GoToState(this, "Opened", useTransitions);
-                VisualStateManager.GoToState(this, "OpenedToolsPanel", useTransitions);
+                VisualStateManager.GoToState(this, "OpenedToolsPanelWide", useTransitions);
             }
             else
             {
                 VisualStateManager.GoToState(this, "Closed", useTransitions);
-                VisualStateManager.GoToState(this, "ClosedToolsPanel", useTransitions);
+                VisualStateManager.GoToState(this, "ClosedToolsPanelWide", useTransitions);
             }
         }
         public string AddItem

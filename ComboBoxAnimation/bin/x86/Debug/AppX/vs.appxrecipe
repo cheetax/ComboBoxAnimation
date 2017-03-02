@@ -28,13 +28,13 @@
     <AppXManifest Include="D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-01T11:46:16.262</Modified>
+      <Modified>2017-03-02T07:19:00.963</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\ComboBoxAnimation.exe">
       <PackagePath>entrypoint\ComboBoxAnimation.exe</PackagePath>
-      <Modified>2017-03-01T11:46:15.383</Modified>
+      <Modified>2017-03-02T07:19:00.360</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -488,7 +488,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\ComboBoxAnimation.xr.xml">
       <PackagePath>ComboBoxAnimation.xr.xml</PackagePath>
-      <Modified>2017-03-01T07:56:30.165</Modified>
+      <Modified>2017-03-02T06:47:39.621</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -497,11 +497,11 @@
     <AppxPackagedFile Include="D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-01T11:46:15.932</Modified>
+      <Modified>2017-03-02T07:19:00.774</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Core\ComboBoxAnimation.exe">
       <PackagePath>ComboBoxAnimation.exe</PackagePath>
-      <Modified>2017-03-01T11:46:16.252</Modified>
+      <Modified>2017-03-02T07:19:00.958</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
