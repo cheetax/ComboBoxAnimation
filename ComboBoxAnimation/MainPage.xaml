@@ -13,7 +13,12 @@
         <Grid.DataContext>
             <ViewModel:ModelView/>
         </Grid.DataContext>
-        <VisualStateManager.VisualStateGroups>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+
+        </Grid.RowDefinitions>
+        <!--<VisualStateManager.VisualStateGroups>
             <VisualStateGroup>
                 <VisualState>
                     <VisualState.StateTriggers>
@@ -24,12 +29,12 @@
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
-        </VisualStateManager.VisualStateGroups>
+        </VisualStateManager.VisualStateGroups>-->
         
-        <StackPanel Orientation="Vertical" Grid.RowSpan="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel Orientation="Vertical" Grid.RowSpan="1" HorizontalAlignment="Right" VerticalAlignment="Top">
             
             <Rectangle Width="100" Height="30" x:Name="rect"/>
-            <control:ComboBoxUser ItemSource="{Binding Users}" SelectedItem="{Binding SelectUser, Mode=TwoWay}" Background="Transparent" HorizontalAlignment="Right" AddItem="{Binding AddUser, Mode=TwoWay}" PressedAddButton="ComboBoxUser_PressedAddButton" PressedSettingsButton="ComboBoxUser_PressedSettingsButton">
+            <control:ComboBoxUser ItemSource="{Binding Users}" SelectedItem="{Binding SelectUser, Mode=TwoWay}" Background="Transparent" HorizontalAlignment="Right" PressedAddButton="ComboBoxUser_PressedAddButton" PressedSettingsButton="ComboBoxUser_PressedSettingsButton">
                 <control:ComboBoxUser.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
@@ -40,7 +45,16 @@
                     </DataTemplate>
                 </control:ComboBoxUser.ItemTemplate>
             </control:ComboBoxUser>
+            <RelativePanel>
+                <Rectangle x:Name="Green" Fill="Green" Width="100" Height="30"
+                       
+                       />
+                <Rectangle x:Name="Red" Fill="Red" Width="100" Height="30"
+                       RelativePanel.Below="Green"
+                       />
+            </RelativePanel>
         </StackPanel>
+        
         <!--<TextBox/>-->
     </Grid>
 </Page>

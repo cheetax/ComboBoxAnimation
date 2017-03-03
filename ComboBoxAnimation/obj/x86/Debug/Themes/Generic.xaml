@@ -160,12 +160,6 @@
                                         <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="AddButton">
                                             <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ComboBoxPointerOverForegroundBrush}"/>
                                         </ObjectAnimationUsingKeyFrames>
-                                        <!--<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentPresenter">
-                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ComboBoxPointerOverForegroundBrush}"/>
-                                        </ObjectAnimationUsingKeyFrames>
-                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="DropDownGlyph">
-                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ComboBoxPointerOverForegroundBrush}"/>
-                                        </ObjectAnimationUsingKeyFrames>-->
                                     </Storyboard>
                                 </VisualState>
                                 <VisualState x:Name="PointerOverSettingsButton">
@@ -173,12 +167,6 @@
                                         <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="SettingsButton">
                                             <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ComboBoxPointerOverForegroundBrush}"/>
                                         </ObjectAnimationUsingKeyFrames>
-                                        <!--<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentPresenter">
-                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ComboBoxPointerOverForegroundBrush}"/>
-                                        </ObjectAnimationUsingKeyFrames>
-                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="DropDownGlyph">
-                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ComboBoxPointerOverForegroundBrush}"/>
-                                        </ObjectAnimationUsingKeyFrames>-->
                                     </Storyboard>
                                 </VisualState>
                                 <VisualState x:Name="Pressed">
@@ -281,25 +269,32 @@
 
                                 </VisualState>
                             </VisualStateGroup>
-                            <VisualStateGroup x:Name="WindowSizeStates">
-                                <VisualState x:Name="WideStates">                                    
+                            <!--<VisualStateGroup x:Name="WindowSizeStates">
+                                <VisualState x:Name="WideStates">
                                     <VisualState.Setters>
-                                        <Setter Target="ToolsPanel.(RelativePanel.Below)" Value="{x:Null}"/>
-                                        <Setter Target="ToolsPanel.(RelativePanel.RightOf)" Value="Separator"/>
-                                        <Setter Target="ToolsPanel.(RelativePanel.AlignVerticalCenterWith)" Value="Separator"/>
-                                        <Setter Target="Green.Fill" Value="Yellow"/>
+                                        <Setter Target="PopupToolsPanel.(RelativePanel.Below)" Value="{x:Null}"/>
+                                        <Setter Target="PopupToolsPanel.(RelativePanel.RightOf)" Value="{x:Null}"/>
+                                        <Setter Target="PopupToolsPanel.(RelativePanel.AlignLeftWithPanel)" Value="True"/>
+                                        <Setter Target="PopupToolsPanel.(RelativePanel.AlignVerticalCenterWithPanel)" Value="True"/>
+                                        <Setter Target="PopupToolsPanel.(RelativePanel.AlignBottomWithPanel)" Value="False"/>
+                                        <Setter Target="Popup.(VerticalOffset)" Value="0"/>
+                                        --><!--<Setter Target="Green.Fill" Value="Yellow"/>--><!--
                                     </VisualState.Setters>
                                 </VisualState>
-                                <VisualState x:Name="NarrowStates">                                    
+                                <VisualState x:Name="NarrowStates">
                                     <VisualState.Setters>
-                                        <Setter Target="ToolsPanel.(RelativePanel.Below)" Value="ContentPresenter"/>
-                                        <Setter Target="ToolsPanel.(RelativePanel.RightOf)" Value="{x:Null}"/>
-                                        <Setter Target="ToolsPanel.(RelativePanel.AlignVerticalCenterWith)" Value="{x:Null}"/>
-                                        <Setter Target="Green.Fill" Value="Green"/>
+                                        --><!--<Setter Target="PopupToolsPanel.(RelativePanel.Below)" Value="Background"/>--><!--
+                                        <Setter Target="PopupToolsPanel.(RelativePanel.RightOf)" Value="{x:Null}"/>
+                                        <Setter Target="PopupToolsPanel.(RelativePanel.AlignVerticalCenterWithPanel)" Value="False"/>
+                                        <Setter Target="PopupToolsPanel.(RelativePanel.AlignLeftWithPanel)" Value="False"/>
+                                        <Setter Target="Popup.(VerticalOffset)" Value="{Binding ToolsPanelHeight}"/>
+                                        <Setter Target="PopupToolsPanel.(RelativePanel.AlignVerticalCenterWith)" Value="{x:Null}"/>
+                                        <Setter Target="PopupToolsPanel.(RelativePanel.AlignBottomWithPanel)" Value="True"/>
+                                        --><!--<Setter Target="RectPopup.Fill" Value="Black"/>--><!--
                                     </VisualState.Setters>
                                 </VisualState>
-                            </VisualStateGroup>
-                            <VisualStateGroup x:Name="ToolsPanelStates">
+                            </VisualStateGroup>-->
+                            <!--<VisualStateGroup x:Name="ToolsPanelStates">
                                 <VisualState x:Name="OpenedToolsPanelWide">
                                     <Storyboard >
                                         <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.MinWidth)" Storyboard.TargetName="GridRoot" EnableDependentAnimation="True">
@@ -330,21 +325,13 @@
                                 </VisualState>
                                 <VisualState x:Name="OpenedToolsPanelNarrow">
                                     <Storyboard >
-                                        <!--<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.MinHeidth)" Storyboard.TargetName="GridRoot" EnableDependentAnimation="True">
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Height)" Storyboard.TargetName="Tools" EnableDependentAnimation="True">
                                             <EasingDoubleKeyFrame KeyTime="0" Value="0" />
-                                            <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="{Binding GridRootHeigth}" />
-                                        </DoubleAnimationUsingKeyFrames>-->
-                                        <!--<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.MinWidth)" Storyboard.TargetName="ToolsColumn" EnableDependentAnimation="True">
-                                            <EasingDoubleKeyFrame KeyTime="0" Value="0" />
-                                            <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="{Binding ToolsPanelHeigth}" />
-                                        </DoubleAnimationUsingKeyFrames>-->
-                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Heigth)" Storyboard.TargetName="Tools" EnableDependentAnimation="True">
-                                            <EasingDoubleKeyFrame KeyTime="0" Value="0" />
-                                            <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="{Binding ToolsPanelHeigth}" />
+                                            <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="{Binding ToolsPanelHeight}" />
                                         </DoubleAnimationUsingKeyFrames>
                                         <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="ToolsPanel" >
                                             <EasingDoubleKeyFrame KeyTime="0" Value="0" />
-                                            <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="{Binding ToolsPanelHeigth}" />
+                                            <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="{Binding ToolsPanelHeight}" />
                                         </DoubleAnimationUsingKeyFrames>
                                         <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="ToolsPanel" >
                                             <DiscreteObjectKeyFrame KeyTime="0:0:0">
@@ -356,8 +343,7 @@
                                     </Storyboard>
 
                                 </VisualState>
-                                <VisualState x:Name="ClosedToolsPanelWide" >                                 
-
+                                <VisualState x:Name="ClosedToolsPanelWide" >
                                     <Storyboard >
                                         <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="ToolsPanel" >
                                             <EasingDoubleKeyFrame KeyTime="0" Value="{Binding ToolsPanelWidth, Converter={StaticResource NegativeValue}}" />
@@ -385,12 +371,31 @@
                                             </DiscreteObjectKeyFrame>
                                         </ObjectAnimationUsingKeyFrames>
                                     </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="ClosedToolsPanelNarrow">
+                                    <Storyboard >
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Height)" Storyboard.TargetName="Tools" EnableDependentAnimation="True">
+                                            <EasingDoubleKeyFrame KeyTime="0" Value="{Binding ToolsPanelHeight}" />
+                                            <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0" />
+                                        </DoubleAnimationUsingKeyFrames>
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="ToolsPanel" >
+                                            <EasingDoubleKeyFrame KeyTime="0" Value="{Binding ToolsPanelHeight}" />
+                                            <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0" />
+                                        </DoubleAnimationUsingKeyFrames>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="ToolsPanel" >
+                                            <DiscreteObjectKeyFrame KeyTime="0:0:0.3">
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <Visibility>Collapsed</Visibility>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
 
                                 </VisualState>
-                            </VisualStateGroup>
+                            </VisualStateGroup>-->
                         </VisualStateManager.VisualStateGroups>
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
                             <RowDefinition Height="Auto"/>
                         </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
@@ -398,10 +403,7 @@
                             <ColumnDefinition Width="Auto"/>
                             <ColumnDefinition Width="Auto"/>
                         </Grid.ColumnDefinitions>
-                        <Rectangle Grid.Column="0" Fill="Yellow"/>
-                        <Rectangle x:Name="Green" Grid.Column="1" Fill="Green" />
-                        <Rectangle Grid.Column="2" Fill="Orange"/>
-                        <RelativePanel Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0">
+                        <RelativePanel Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0" VerticalAlignment="Stretch">
                             <Border Name="Background" 
                                     Canvas.ZIndex="10"
                                     RelativePanel.AlignLeftWithPanel="True"
@@ -415,7 +417,7 @@
                                               HorizontalContentAlignment="Left"
                                               RelativePanel.AlignTopWithPanel="True"/>
                             <Rectangle Fill="Red" Width="0" Height="0" x:Name="Separator" RelativePanel.LeftOf="ContentPresenter" RelativePanel.AlignVerticalCenterWith="ContentPresenter"/>
-                            <Rectangle Fill="Red" Width="1" Height="20" x:Name="Separator1" RelativePanel.RightOf="ContentPresenter" RelativePanel.LeftOf="DropDownGlyph" RelativePanel.AlignVerticalCenterWith="ContentPresenter"/>
+                            <Rectangle Fill="Red" Width="0" Height="0" x:Name="Separator1" RelativePanel.RightOf="ContentPresenter" RelativePanel.LeftOf="DropDownGlyph" RelativePanel.AlignVerticalCenterWith="ContentPresenter"/>
                             <FontIcon Name="DropDownGlyph" Grid.Column="2"
                                   Grid.Row="0"
                                   FontFamily="Segoe MDL2 Assets" 
@@ -431,33 +433,42 @@
                                     <CompositeTransform Rotation="0"/>
                                 </FontIcon.RenderTransform>
                             </FontIcon>
-                            <Border x:Name="ToolsPanel" 
-                                    RelativePanel.AlignVerticalCenterWith="Separator"
-                                    RelativePanel.RightOf="Separator">
-                                <Border.RenderTransform>
-                                    <CompositeTransform TranslateY="0"/>
-                                </Border.RenderTransform>
-                                <StackPanel x:Name="Tools" Orientation="Horizontal" RenderTransformOrigin="0,0" HorizontalAlignment="Left">
-                                    <StackPanel.RenderTransform>
-                                        <CompositeTransform TranslateX="0"/>
-                                    </StackPanel.RenderTransform>
-                                    <FontIcon x:Name="AddButton"
+
+                            <!--<Popup IsOpen="True" x:Name="PopupToolsPanel"
+                                    HorizontalAlignment="Left"
+                                    RelativePanel.AlignVerticalCenterWith="Separator"                                    
+                                    RelativePanel.RightOf="Separator"                                   
+                                    RenderTransformOrigin="0,1">
+                                
+                                <Border x:Name="ToolsPanel" VerticalAlignment="Stretch">
+                                    <Border.RenderTransform>
+                                        <CompositeTransform TranslateY="0"/>
+                                    </Border.RenderTransform>
+                                    <StackPanel x:Name="Tools" Orientation="Horizontal" RenderTransformOrigin="0,1" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                        <StackPanel.RenderTransform>
+                                            <CompositeTransform TranslateX="0" TranslateY="0"/>
+                                            
+                                        </StackPanel.RenderTransform>
+                                        --><!--<Rectangle x:Name="RectPopup" Fill="Brown" Width="5" VerticalAlignment="Stretch"/>--><!--
+                                        <FontIcon x:Name="AddButton"
                                       Margin="8 0"
                                       FontFamily="Segoe MDL2 Assets" 
                                       Glyph="&#xE109;"
                                       FontSize="18"/>
-                                    <FontIcon x:Name="SettingsButton"
+                                        <FontIcon x:Name="SettingsButton"
                                       Margin="8 0"
                                       FontFamily="Segoe MDL2 Assets" 
                                       Glyph="&#xE115;" FontSize="18"/>
-                                </StackPanel>
-                            </Border>
+                                    </StackPanel>
+                                </Border>
+                            </Popup>-->
                         </RelativePanel>
                         <Popup IsOpen="False"
                                Grid.Row="1"
                                Grid.Column="1"
                                Grid.ColumnSpan="1"
                                Name="Popup" 
+                               
                                HorizontalAlignment="Stretch">
                             <StackPanel Name="PopupPanel"
                                         Background="{TemplateBinding Background}"                                         

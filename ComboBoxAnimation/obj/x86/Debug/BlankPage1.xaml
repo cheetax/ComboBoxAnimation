@@ -626,7 +626,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <ComboBox x:ConnectionId='4' x:Name="comboBox" Style="{StaticResource ComboBoxStyle1}" RenderTransformOrigin="0,0" Width="0">
+        <ComboBox x:ConnectionId='4' x:Name="comboBox" Style="{StaticResource ComboBoxStyle1}" RenderTransformOrigin="0,1" Width="0">
             <ComboBox.RenderTransform>
                 <CompositeTransform TranslateX="-180"/>
             </ComboBox.RenderTransform>

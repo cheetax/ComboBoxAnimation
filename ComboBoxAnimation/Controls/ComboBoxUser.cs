@@ -30,6 +30,7 @@ namespace ComboBoxAnimation.Controls
         Border _Border;
         Grid _GridRoot;
         Border _ToolsPanel;
+        Popup _PopupToolsPanel;
         FontIcon _AddButton;
         FontIcon _SettingsButton;
 
@@ -40,6 +41,7 @@ namespace ComboBoxAnimation.Controls
         protected override void OnApplyTemplate()
         {
             _Popup = GetTemplateChild("Popup") as Popup;
+            
             _PopupPanel = GetTemplateChild("PopupPanel") as StackPanel;
             _ListBox = GetTemplateChild("listBox") as ListBox;
             _ContentPresenter = GetTemplateChild("ContentPresenter") as ContentPresenter;
@@ -47,30 +49,36 @@ namespace ComboBoxAnimation.Controls
             _GridRoot = GetTemplateChild("GridRoot") as Grid;
             _ContentPresenter.ContentTemplate = ItemTemplate;
             _ContentPresenter.Content = this.SelectedItem;
-            _ToolsPanel = GetTemplateChild("ToolsPanel") as Border;
+            //_ToolsPanel = GetTemplateChild("ToolsPanel") as Border;
+            //_PopupToolsPanel = GetTemplateChild("PopupToolsPanel") as Popup;
+            //_AddButton = GetTemplateChild("AddButton") as FontIcon;
+            //_AddButton.PointerPressed += (s, e) => PressedAddButton?.Invoke(s, e);
 
-            _AddButton = GetTemplateChild("AddButton") as FontIcon;
-            _AddButton.PointerPressed += (s, e) => PressedAddButton?.Invoke(s, e);
-
-            _SettingsButton = GetTemplateChild("SettingsButton") as FontIcon;
-            _SettingsButton.PointerPressed += (s, e) => PressedSettingsButton?.Invoke(s, e);
+            //_SettingsButton = GetTemplateChild("SettingsButton") as FontIcon;
+            //_SettingsButton.PointerPressed += (s, e) => PressedSettingsButton?.Invoke(s, e);
 
             model = _GridRoot.DataContext as ModelViewComboBox;
 
-            ApplicationView bounds = ApplicationView.GetForCurrentView();
+            //ApplicationView bounds = ApplicationView.GetForCurrentView();
 
-            Bounds_VisibleBoundsChanged(bounds, null);
+            //Bounds_VisibleBoundsChanged(bounds, null);
 
-            bounds.VisibleBoundsChanged += Bounds_VisibleBoundsChanged;
-
-            _ToolsPanel.SizeChanged += (s, e) =>
-                {
-                    model.ToolsPanelHeigth = ((FrameworkElement)s).ActualHeight;
-                    model.ToolsPanelWidth = ((FrameworkElement)s).ActualWidth;
-                    ((FrameworkElement)s).Width = model.ToolsPanelWidth;
-                    model.GridRootWidth += ((FrameworkElement)_GridRoot).ActualWidth + model.ToolsPanelWidth;
-                    ((FrameworkElement)s).Visibility = Visibility.Collapsed;
-                };
+            //bounds.VisibleBoundsChanged += Bounds_VisibleBoundsChanged;
+            
+            //_ToolsPanel.SizeChanged += (s, e) =>
+            //    {
+            //        model.ToolsPanelHeight = ((FrameworkElement)s).ActualHeight;
+            //        model.ToolsPanelWidth = ((FrameworkElement)s).ActualWidth;
+            //        ((FrameworkElement)s).Width = model.ToolsPanelWidth;
+            //        ((FrameworkElement)s).Height = model.ToolsPanelHeight;
+            //        _PopupToolsPanel.Height = model.ToolsPanelHeight;
+            //        _PopupToolsPanel.Width = model.ToolsPanelWidth;
+            //        _PopupToolsPanel.UpdateLayout();
+            //        if (model.Size.Width <= 500) _Popup.VerticalOffset = model.ToolsPanelHeight;
+            //        model.GridRootWidth = ((FrameworkElement)_GridRoot).ActualWidth + model.ToolsPanelWidth;
+            //        ((FrameworkElement)s).Visibility = Visibility.Collapsed;
+                    
+            //    };
             _Popup.IsOpen = true;
             _PopupPanel.SizeChanged += (s, e) =>
             {
@@ -80,79 +88,92 @@ namespace ComboBoxAnimation.Controls
             };
 
             _ListBox.SelectionChanged += (s, e) =>
-                        {
-                            _ContentPresenter.Content = ((ListBox)s).SelectedItem;
-                            model.IsChecked = false;
-                            UpdateStates(true);
-                        };
+             {
+                 _ContentPresenter.Content = ((ListBox)s).SelectedItem;
+                 model.IsChecked = false;
+                 UpdateStates(true);
+             };
             _Border.PointerEntered += (s, e) =>  // Есть фокус
             {
                 VisualStateManager.GoToState(this, "PointerOver", true);
-
-                VisualStateManager.GoToState(this, "OpenedToolsPanelWide", true);
+                //VisualStateManager.GoToState(this, "OpenedToolsPanelWide", true);
+                //if (model.Size.Width <= 500) VisualStateManager.GoToState(this, "OpenedToolsPanelNarrow", true);
+                //else VisualStateManager.GoToState(this, "OpenedToolsPanelWide", true);
             };
 
             _GridRoot.PointerExited += (s, e) =>  // Нет фокуса
             {
+                //    var xe = _PopupToolsPanel is FrameworkElement;
                 VisualStateManager.GoToState(this, "Normal", true);
-                if (!model.IsChecked) VisualStateManager.GoToState(this, "ClosedToolsPanelWide", true);
+                //if (!model.IsChecked)
+                //    {
+                //        if (model.Size.Width <= 500) VisualStateManager.GoToState(this, "ClosedToolsPanelNarrow", true);
+                //        else VisualStateManager.GoToState(this, "ClosedToolsPanelWide", true);
+                //    }
             };
             _Border.PointerPressed += (s, e) =>
-                        {
-                            model.IsChecked = !model.IsChecked;
-                            _PopupPanel.Width = _Border.ActualWidth;
-                            UpdateStates(true);
-                        };
-
-            _AddButton.PointerEntered += (s, e) =>  // Есть фокус
             {
-                VisualStateManager.GoToState(this, "PointerOverAddButton", true);
-
+                model.IsChecked = !model.IsChecked;
+                _PopupPanel.Width = _Border.ActualWidth;
+                UpdateStates(true);
             };
 
-            _AddButton.PointerExited += (s, e) =>  // Нет фокуса
-            {
-                VisualStateManager.GoToState(this, "Normal", true);
+            //_AddButton.PointerEntered += (s, e) =>  // Есть фокус
+            //{
+            //    VisualStateManager.GoToState(this, "PointerOverAddButton", true);
 
-            };
-            _SettingsButton.PointerEntered += (s, e) =>  // Есть фокус
-            {
-                VisualStateManager.GoToState(this, "PointerOverSettingsButton", true);
-            };
+            //};
 
-            _SettingsButton.PointerExited += (s, e) =>  // Нет фокуса
-            {
-                VisualStateManager.GoToState(this, "Normal", true);
-            };
+            //_AddButton.PointerExited += (s, e) =>  // Нет фокуса
+            //{
+            //    VisualStateManager.GoToState(this, "Normal", true);
+
+            //};
+            //_SettingsButton.PointerEntered += (s, e) =>  // Есть фокус
+            //{
+            //    VisualStateManager.GoToState(this, "PointerOverSettingsButton", true);
+            //};
+
+            //_SettingsButton.PointerExited += (s, e) =>  // Нет фокуса
+            //{
+            //    VisualStateManager.GoToState(this, "Normal", true);
+            //};
 
         }
 
-        private void Bounds_VisibleBoundsChanged(ApplicationView sender, object args)
-        {
-            var size = new Size(sender.VisibleBounds.Width, sender.VisibleBounds.Height);
-            if (size.Width < 500)
-            {
-                VisualStateManager.GoToState(this, "NarrowStates", true);
-            }
-            else
-            {
-                VisualStateManager.GoToState(this, "WideStates", true);
-            }
-        }
+        //private void Bounds_VisibleBoundsChanged(ApplicationView sender, object args)
+        //{
+        //    model.Size = new Size(sender.VisibleBounds.Width, sender.VisibleBounds.Height);
+        //    UpdateSizeStates(true);
+        //}
 
         void UpdateStates(bool useTransitions)
         {
             if (model.IsChecked)
             {
                 VisualStateManager.GoToState(this, "Opened", useTransitions);
-                VisualStateManager.GoToState(this, "OpenedToolsPanelWide", useTransitions);
+                //if (model.Size.Width <= 500) VisualStateManager.GoToState(this, "OpenedToolsPanelNarrow", useTransitions);
+                //else VisualStateManager.GoToState(this, "OpenedToolsPanelWide", useTransitions);
             }
             else
             {
                 VisualStateManager.GoToState(this, "Closed", useTransitions);
-                VisualStateManager.GoToState(this, "ClosedToolsPanelWide", useTransitions);
-            }
+                //if (model.Size.Width <= 500) VisualStateManager.GoToState(this, "ClosedToolsPanelNarrow", useTransitions);
+                //else VisualStateManager.GoToState(this, "ClosedToolsPanelWide", useTransitions);
+            }  
         }
+
+        //void UpdateSizeStates(bool useTransitions)
+        //{
+        //    if (model.Size.Width <= 500)
+        //    {
+        //        VisualStateManager.GoToState(this, "NarrowStates", useTransitions);
+        //    }
+        //    else
+        //    {
+        //        VisualStateManager.GoToState(this, "WideStates", useTransitions);
+        //    }
+        //}
         public string AddItem
         {
             get { return (string)GetValue(AddItemProperty); }
@@ -213,7 +234,7 @@ namespace ComboBoxAnimation.Controls
             set { lenght = value; }
         }
 
-        public double ToolsPanelHeigth { get; set; }
+        public double ToolsPanelHeight { get; set; }
         public double ToolsPanelWidth { get; set; }
         public double GridRootWidth { get; set; }
         public Size Size { get; set; }

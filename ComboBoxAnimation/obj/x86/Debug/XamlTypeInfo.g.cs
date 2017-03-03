@@ -332,7 +332,7 @@ namespace ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo
                 userType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_14_ModelViewComboBox;
                 userType.AddMemberName("Lenght");
-                userType.AddMemberName("ToolsPanelHeigth");
+                userType.AddMemberName("ToolsPanelHeight");
                 userType.AddMemberName("ToolsPanelWidth");
                 userType.AddMemberName("GridRootWidth");
                 userType.AddMemberName("Size");
@@ -472,15 +472,15 @@ namespace ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo
             var that = (global::ComboBoxAnimation.Controls.ModelViewComboBox)instance;
             that.Lenght = (global::System.Double)Value;
         }
-        private object get_10_ModelViewComboBox_ToolsPanelHeigth(object instance)
+        private object get_10_ModelViewComboBox_ToolsPanelHeight(object instance)
         {
             var that = (global::ComboBoxAnimation.Controls.ModelViewComboBox)instance;
-            return that.ToolsPanelHeigth;
+            return that.ToolsPanelHeight;
         }
-        private void set_10_ModelViewComboBox_ToolsPanelHeigth(object instance, object Value)
+        private void set_10_ModelViewComboBox_ToolsPanelHeight(object instance, object Value)
         {
             var that = (global::ComboBoxAnimation.Controls.ModelViewComboBox)instance;
-            that.ToolsPanelHeigth = (global::System.Double)Value;
+            that.ToolsPanelHeight = (global::System.Double)Value;
         }
         private object get_11_ModelViewComboBox_ToolsPanelWidth(object instance)
         {
@@ -605,11 +605,11 @@ namespace ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo
                 xamlMember.Getter = get_9_ModelViewComboBox_Lenght;
                 xamlMember.Setter = set_9_ModelViewComboBox_Lenght;
                 break;
-            case "ComboBoxAnimation.Controls.ModelViewComboBox.ToolsPanelHeigth":
+            case "ComboBoxAnimation.Controls.ModelViewComboBox.ToolsPanelHeight":
                 userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.ModelViewComboBox");
-                xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "ToolsPanelHeigth", "Double");
-                xamlMember.Getter = get_10_ModelViewComboBox_ToolsPanelHeigth;
-                xamlMember.Setter = set_10_ModelViewComboBox_ToolsPanelHeigth;
+                xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "ToolsPanelHeight", "Double");
+                xamlMember.Getter = get_10_ModelViewComboBox_ToolsPanelHeight;
+                xamlMember.Setter = set_10_ModelViewComboBox_ToolsPanelHeight;
                 break;
             case "ComboBoxAnimation.Controls.ModelViewComboBox.ToolsPanelWidth":
                 userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.ModelViewComboBox");
