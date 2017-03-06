@@ -8,6 +8,15 @@
     xmlns:ViewModel="using:ComboBoxAnimation.ViewModel"
     x:Class="ComboBoxAnimation.MainPage"
     mc:Ignorable="d">
+    <Page.Resources>
+        <DataTemplate x:Key="DataTemplateUser">
+            <StackPanel Orientation="Horizontal">
+                <!--<Image Width="30" Height="30" Source="Assets/SplashScreen.png"/>-->
+                <!--<FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE13D;" Margin=" 0 0 10 0" />-->
+                <TextBlock Text="{Binding Name}"/>
+            </StackPanel>
+        </DataTemplate>
+    </Page.Resources>
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" >
         <Grid.DataContext>
@@ -16,7 +25,6 @@
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition Height="Auto"/>
-
         </Grid.RowDefinitions>
         <!--<VisualStateManager.VisualStateGroups>
             <VisualStateGroup>
@@ -34,25 +42,12 @@
         <StackPanel Orientation="Vertical" Grid.RowSpan="1" HorizontalAlignment="Right" VerticalAlignment="Top">
             
             <Rectangle x:ConnectionId='1' Width="100" Height="30" x:Name="rect"/>
-            <control:ComboBoxUser x:ConnectionId='2' ItemSource="{Binding Users}" SelectedItem="{Binding SelectUser, Mode=TwoWay}" Background="Transparent" HorizontalAlignment="Right"                                                                                                            >
-                <control:ComboBoxUser.ItemTemplate>
-                    <DataTemplate>
-                        <StackPanel Orientation="Horizontal">
-                            <!--<Image Width="30" Height="30" Source="Assets/SplashScreen.png"/>-->
-                            <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE13D;" Margin=" 0 0 10 0" />
-                            <TextBlock Text="{Binding Name}"/>
-                        </StackPanel>
-                    </DataTemplate>
-                </control:ComboBoxUser.ItemTemplate>
+            <control:ComboBoxUser ItemsSource="{Binding Users}"
+                                  
+                                  HorizontalAlignment="Right"                                 
+                                  ItemTemplate="{StaticResource DataTemplateUser}">
             </control:ComboBoxUser>
-            <RelativePanel>
-                <Rectangle x:ConnectionId='3' x:Name="Green" Fill="Green" Width="100" Height="30"
-                       
-                       />
-                <Rectangle x:ConnectionId='4' x:Name="Red" Fill="Red" Width="100" Height="30"
-                       RelativePanel.Below="Green"
-                       />
-            </RelativePanel>
+            
         </StackPanel>
         
         <!--<TextBox/>-->

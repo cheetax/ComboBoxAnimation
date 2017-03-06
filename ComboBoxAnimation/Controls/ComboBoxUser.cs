@@ -29,15 +29,14 @@ namespace ComboBoxAnimation.Controls
         ContentPresenter _ContentPresenter;
         Border _Border;
         Grid _GridRoot;
-        Border _ToolsPanel;
-        Popup _PopupToolsPanel;
-        FontIcon _AddButton;
-        FontIcon _SettingsButton;
+        //Border _ToolsPanel;
+        //Popup _PopupToolsPanel;
+        //FontIcon _AddButton;
+        //FontIcon _SettingsButton;
 
-        public event EventHandler<RoutedEventArgs> PressedAddButton = delegate { };
-        public event EventHandler<RoutedEventArgs> PressedSettingsButton = delegate { };
-
-
+        //public event EventHandler<RoutedEventArgs> PressedAddButton = delegate { };
+        //public event EventHandler<RoutedEventArgs> PressedSettingsButton = delegate { };
+        
         protected override void OnApplyTemplate()
         {
             _Popup = GetTemplateChild("Popup") as Popup;
@@ -80,11 +79,26 @@ namespace ComboBoxAnimation.Controls
                     
             //    };
             _Popup.IsOpen = true;
+           // _Popup.UpdateLayout();
+            //_ContentPresenter.Width = _ListBox.ActualWidth;
+            //_Border.UpdateLayout();
+            _Border.SizeChanged += (s, e) =>
+            {
+                _PopupPanel.MinWidth = _Border.ActualWidth;
+            };
+           
+            _ContentPresenter.Loaded += (s, e) =>
+            {
+                _ContentPresenter.Width = _ListBox.ActualWidth;
+                _Popup.IsOpen = model.IsChecked;
+            };
             _PopupPanel.SizeChanged += (s, e) =>
             {
                 model.Lenght = ((FrameworkElement)s).ActualHeight;
                 _ListBox.MaxHeight = ((FrameworkElement)(_ListBox.ContainerFromIndex(1))).ActualHeight * ((MaxCountItems == -1) ? double.PositiveInfinity : MaxCountItems);
-                _Popup.IsOpen = model.IsChecked;
+                //_ContentPresenter.Width = _ListBox.ActualWidth;
+                
+                //_Popup.IsOpen = model.IsChecked;
             };
 
             _ListBox.SelectionChanged += (s, e) =>
@@ -179,10 +193,10 @@ namespace ComboBoxAnimation.Controls
             get { return (string)GetValue(AddItemProperty); }
             set { SetValue(AddItemProperty, value); NotifyPropertyChanged(); }
         }
-        public object ItemSource
+        public object ItemsSource
         {
-            get { return (object)GetValue(ItemSourceProperty); }
-            set { SetValue(ItemSourceProperty, value); NotifyPropertyChanged(); }
+            get { return (object)GetValue(ItemsSourceProperty); }
+            set { SetValue(ItemsSourceProperty, value); NotifyPropertyChanged(); }
         }
         public object SelectedItem
         {
@@ -202,8 +216,8 @@ namespace ComboBoxAnimation.Controls
             set { SetValue(MaxCountItemsProperty, value); NotifyPropertyChanged(); }
         }
 
-        public static readonly DependencyProperty ItemSourceProperty =
-            DependencyProperty.Register(nameof(ItemSource), typeof(object), typeof(ComboBoxUser), null);
+        public static readonly DependencyProperty ItemsSourceProperty =
+            DependencyProperty.Register(nameof(ItemsSource), typeof(object), typeof(ComboBoxUser), null);
 
         public static readonly DependencyProperty ItemTemplateProperty =
             DependencyProperty.Register(nameof(ItemTemplate), typeof(DataTemplate), typeof(ComboBoxUser), null);

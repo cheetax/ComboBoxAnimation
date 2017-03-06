@@ -205,7 +205,6 @@ D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAn
 D:\users\user\documents\visual studio 2015\Projects\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\ProjectArchitectures.txt
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\App.xbf
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\BlankPage1.xbf
-D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Dictionary.xbf
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\MainPage.xbf
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\Themes\Generic.xbf
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\ComboBoxAnimation.xr.xml
@@ -329,12 +328,10 @@ D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\XamlTypeInfo.g.cs
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\App.xaml
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\BlankPage1.xaml
-D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\Dictionary.xaml
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\MainPage.xaml
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\Themes\Generic.xaml
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\App.xbf
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\BlankPage1.xbf
-D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\Dictionary.xbf
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\MainPage.xbf
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\Themes\Generic.xbf
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\XamlSaveStateFile.xml

@@ -27,14 +27,14 @@ namespace ComboBoxAnimation
             this.InitializeComponent();
         }
 
-        private void ComboBoxUser_PressedAddButton(object sender, RoutedEventArgs e)
-        {
+        //private void ComboBoxUser_PressedAddButton(object sender, RoutedEventArgs e)
+        //{
             
-        }
+        //}
 
-        private void ComboBoxUser_PressedSettingsButton(object sender, RoutedEventArgs e)
-        {
+        //private void ComboBoxUser_PressedSettingsButton(object sender, RoutedEventArgs e)
+        //{
 
-        }
+        //}
     }
 }
