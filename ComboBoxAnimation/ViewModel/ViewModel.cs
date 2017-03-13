@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 
@@ -20,6 +21,8 @@ namespace ComboBoxAnimation.ViewModel
         User selectUser;
         string _AddUser;
 
+        public Type SelectedPage { get; set; } = typeof(BlankPage1);
+
         public string AddUser
         {
             get { return _AddUser; }
@@ -27,7 +30,7 @@ namespace ComboBoxAnimation.ViewModel
             {
                 _AddUser = value;
                 Users.Add(new User() { Name = value });
-               // NotifyPropertyChanged();
+                NotifyPropertyChanged();
             }
         }
         public User SelectUser
@@ -35,6 +38,8 @@ namespace ComboBoxAnimation.ViewModel
             get { return selectUser; }
             set { selectUser = value; NotifyPropertyChanged(); }
         }
+
+
 
         public ModelView()
         {

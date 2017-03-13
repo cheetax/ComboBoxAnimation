@@ -89,7 +89,7 @@ namespace ComboBoxAnimation.Controls
            
             _ContentPresenter.Loaded += (s, e) =>
             {
-                _ContentPresenter.Width = _ListBox.ActualWidth;
+                if (_Border.ActualWidth != _ListBox.ActualWidth) _ContentPresenter.Width = _ListBox.ActualWidth;
                 _Popup.IsOpen = model.IsChecked;
             };
             _PopupPanel.SizeChanged += (s, e) =>
@@ -248,10 +248,10 @@ namespace ComboBoxAnimation.Controls
             set { lenght = value; }
         }
 
-        public double ToolsPanelHeight { get; set; }
-        public double ToolsPanelWidth { get; set; }
-        public double GridRootWidth { get; set; }
-        public Size Size { get; set; }
+        //public double ToolsPanelHeight { get; set; }
+        //public double ToolsPanelWidth { get; set; }
+        //public double GridRootWidth { get; set; }
+        //public Size Size { get; set; }
 
         int selItem;
 

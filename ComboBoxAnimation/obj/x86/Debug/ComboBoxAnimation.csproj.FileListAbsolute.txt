@@ -318,7 +318,6 @@ D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Xml.XDocument.dll
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Xml.XmlDocument.dll
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\bin\x86\Debug\System.Xml.XmlSerializer.dll
-D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\ComboBoxAnimation.csprojResolveAssemblyReference.cache
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\App.g.i.cs
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\App.g.cs
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\BlankPage1.g.i.cs
@@ -405,3 +404,4 @@ D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\resources.en-us.resfiles
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\resources.en-us.resfiles.intermediate
 D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\ProjectArchitectures.txt
+D:\users\user\documents\github\ComboBoxAnimation\ComboBoxAnimation\obj\x86\Debug\ComboBoxAnimation.csprojResolveAssemblyReference.cache

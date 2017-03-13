@@ -27,9 +27,22 @@ namespace ComboBoxAnimation
             this.InitializeComponent();
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var t = this;
+            var ch = ((Windows.UI.Xaml.Controls.Panel)this.Content).Children;
+            
+            //ch.Add();
+        }
+
+        private void SearchBox_PressedSearchButton(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         //private void ComboBoxUser_PressedAddButton(object sender, RoutedEventArgs e)
         //{
-            
+
         //}
 
         //private void ComboBoxUser_PressedSettingsButton(object sender, RoutedEventArgs e)

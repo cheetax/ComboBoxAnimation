@@ -16,38 +16,13 @@
             <RowDefinition/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <Popup x:ConnectionId='1' Name="Popup" 
-               CompositeMode="Inherit"
-                               IsOpen="True"
-               HorizontalAlignment="Stretch"
-                               Grid.Row="0">
-            <Grid HorizontalAlignment="Stretch">
-                <StackPanel x:ConnectionId='2' Name="PopupPanel"
-                                        Background="Transparent"                                         
-                                        Orientation="Vertical"
-                                        HorizontalAlignment="Stretch" >
-                    <StackPanel.Projection>
-                        <PlaneProjection LocalOffsetY="0"/>
-                    </StackPanel.Projection>
-                    <ListBox x:ConnectionId='3' Name="listBox"             
-                                         HorizontalAlignment="Stretch"
-                                         ItemsSource="{Binding Users}"
-                                         HorizontalContentAlignment="Stretch"                             
-                                         Background="#CCFFFFFF"
-                                         BorderBrush="Black"
-                                         BorderThickness="1">
-                        <ListBox.Projection>
-                            <PlaneProjection LocalOffsetY="0"/>
-                        </ListBox.Projection>
-                        <ListBox.ItemTemplate>
-                            <DataTemplate>
-                                <TextBlock Text="{Binding Name}"/>
-                            </DataTemplate>
-                        </ListBox.ItemTemplate>
-                    </ListBox>
-                </StackPanel>
-            </Grid>
-        </Popup>
+        <control:ComboBoxUser ItemsSource="{Binding Users}" SelectedItem="{Binding SelectUser}">
+            <control:ComboBoxUser.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Name}"/>
+                </DataTemplate>
+            </control:ComboBoxUser.ItemTemplate>
+        </control:ComboBoxUser>
     </Grid>
 </Page>
 

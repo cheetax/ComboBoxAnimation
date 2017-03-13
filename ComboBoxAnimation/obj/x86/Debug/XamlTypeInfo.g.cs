@@ -132,49 +132,57 @@ namespace ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[20];
+            _typeNameTable = new string[24];
             _typeNameTable[0] = "ComboBoxAnimation.ViewModel.ModelView";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "System.Collections.ObjectModel.ObservableCollection`1<ComboBoxAnimation.ViewModel.User>";
             _typeNameTable[3] = "System.Collections.ObjectModel.Collection`1<ComboBoxAnimation.ViewModel.User>";
             _typeNameTable[4] = "ComboBoxAnimation.ViewModel.User";
             _typeNameTable[5] = "String";
-            _typeNameTable[6] = "ComboBoxAnimation.BlankPage1";
-            _typeNameTable[7] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[8] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[9] = "ComboBoxAnimation.Controls.ComboBoxUser";
-            _typeNameTable[10] = "Windows.UI.Xaml.Controls.Control";
-            _typeNameTable[11] = "Windows.UI.Xaml.DataTemplate";
-            _typeNameTable[12] = "Int32";
-            _typeNameTable[13] = "ComboBoxAnimation.MainPage";
-            _typeNameTable[14] = "ComboBoxAnimation.Controls.ModelViewComboBox";
-            _typeNameTable[15] = "Double";
-            _typeNameTable[16] = "Windows.Foundation.Size";
-            _typeNameTable[17] = "Boolean";
-            _typeNameTable[18] = "ComboBoxAnimation.Controls.NegativeValue";
-            _typeNameTable[19] = "ComboBoxAnimation.Controls.DoubleToGridLength";
+            _typeNameTable[6] = "System.Type";
+            _typeNameTable[7] = "ComboBoxAnimation.Controls.ComboBoxUser";
+            _typeNameTable[8] = "Windows.UI.Xaml.Controls.Control";
+            _typeNameTable[9] = "Windows.UI.Xaml.DataTemplate";
+            _typeNameTable[10] = "Int32";
+            _typeNameTable[11] = "ComboBoxAnimation.BlankPage1";
+            _typeNameTable[12] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[13] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[14] = "ComboBoxAnimation.Controls.SearchBox";
+            _typeNameTable[15] = "Windows.UI.Xaml.Thickness";
+            _typeNameTable[16] = "ComboBoxAnimation.MainPage";
+            _typeNameTable[17] = "ComboBoxAnimation.Controls.ModelViewComboBox";
+            _typeNameTable[18] = "Double";
+            _typeNameTable[19] = "Boolean";
+            _typeNameTable[20] = "ComboBoxAnimation.Controls.ModelViewSearchBox";
+            _typeNameTable[21] = "ComboBoxAnimation.Controls.NegativeValue";
+            _typeNameTable[22] = "ComboBoxAnimation.Controls.ObjectToString";
+            _typeNameTable[23] = "ComboBoxAnimation.Controls.DoubleToGridLength";
 
-            _typeTable = new global::System.Type[20];
+            _typeTable = new global::System.Type[24];
             _typeTable[0] = typeof(global::ComboBoxAnimation.ViewModel.ModelView);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::ComboBoxAnimation.ViewModel.User>);
             _typeTable[3] = typeof(global::System.Collections.ObjectModel.Collection<global::ComboBoxAnimation.ViewModel.User>);
             _typeTable[4] = typeof(global::ComboBoxAnimation.ViewModel.User);
             _typeTable[5] = typeof(global::System.String);
-            _typeTable[6] = typeof(global::ComboBoxAnimation.BlankPage1);
-            _typeTable[7] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[8] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[9] = typeof(global::ComboBoxAnimation.Controls.ComboBoxUser);
-            _typeTable[10] = typeof(global::Windows.UI.Xaml.Controls.Control);
-            _typeTable[11] = typeof(global::Windows.UI.Xaml.DataTemplate);
-            _typeTable[12] = typeof(global::System.Int32);
-            _typeTable[13] = typeof(global::ComboBoxAnimation.MainPage);
-            _typeTable[14] = typeof(global::ComboBoxAnimation.Controls.ModelViewComboBox);
-            _typeTable[15] = typeof(global::System.Double);
-            _typeTable[16] = typeof(global::Windows.Foundation.Size);
-            _typeTable[17] = typeof(global::System.Boolean);
-            _typeTable[18] = typeof(global::ComboBoxAnimation.Controls.NegativeValue);
-            _typeTable[19] = typeof(global::ComboBoxAnimation.Controls.DoubleToGridLength);
+            _typeTable[6] = typeof(global::System.Type);
+            _typeTable[7] = typeof(global::ComboBoxAnimation.Controls.ComboBoxUser);
+            _typeTable[8] = typeof(global::Windows.UI.Xaml.Controls.Control);
+            _typeTable[9] = typeof(global::Windows.UI.Xaml.DataTemplate);
+            _typeTable[10] = typeof(global::System.Int32);
+            _typeTable[11] = typeof(global::ComboBoxAnimation.BlankPage1);
+            _typeTable[12] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[13] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[14] = typeof(global::ComboBoxAnimation.Controls.SearchBox);
+            _typeTable[15] = typeof(global::Windows.UI.Xaml.Thickness);
+            _typeTable[16] = typeof(global::ComboBoxAnimation.MainPage);
+            _typeTable[17] = typeof(global::ComboBoxAnimation.Controls.ModelViewComboBox);
+            _typeTable[18] = typeof(global::System.Double);
+            _typeTable[19] = typeof(global::System.Boolean);
+            _typeTable[20] = typeof(global::ComboBoxAnimation.Controls.ModelViewSearchBox);
+            _typeTable[21] = typeof(global::ComboBoxAnimation.Controls.NegativeValue);
+            _typeTable[22] = typeof(global::ComboBoxAnimation.Controls.ObjectToString);
+            _typeTable[23] = typeof(global::ComboBoxAnimation.Controls.DoubleToGridLength);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -213,12 +221,15 @@ namespace ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo
         private object Activate_2_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::ComboBoxAnimation.ViewModel.User>(); }
         private object Activate_3_Collection() { return new global::System.Collections.ObjectModel.Collection<global::ComboBoxAnimation.ViewModel.User>(); }
         private object Activate_4_User() { return new global::ComboBoxAnimation.ViewModel.User(); }
-        private object Activate_6_BlankPage1() { return new global::ComboBoxAnimation.BlankPage1(); }
-        private object Activate_9_ComboBoxUser() { return new global::ComboBoxAnimation.Controls.ComboBoxUser(); }
-        private object Activate_13_MainPage() { return new global::ComboBoxAnimation.MainPage(); }
-        private object Activate_14_ModelViewComboBox() { return new global::ComboBoxAnimation.Controls.ModelViewComboBox(); }
-        private object Activate_18_NegativeValue() { return new global::ComboBoxAnimation.Controls.NegativeValue(); }
-        private object Activate_19_DoubleToGridLength() { return new global::ComboBoxAnimation.Controls.DoubleToGridLength(); }
+        private object Activate_7_ComboBoxUser() { return new global::ComboBoxAnimation.Controls.ComboBoxUser(); }
+        private object Activate_11_BlankPage1() { return new global::ComboBoxAnimation.BlankPage1(); }
+        private object Activate_14_SearchBox() { return new global::ComboBoxAnimation.Controls.SearchBox(); }
+        private object Activate_16_MainPage() { return new global::ComboBoxAnimation.MainPage(); }
+        private object Activate_17_ModelViewComboBox() { return new global::ComboBoxAnimation.Controls.ModelViewComboBox(); }
+        private object Activate_20_ModelViewSearchBox() { return new global::ComboBoxAnimation.Controls.ModelViewSearchBox(); }
+        private object Activate_21_NegativeValue() { return new global::ComboBoxAnimation.Controls.NegativeValue(); }
+        private object Activate_22_ObjectToString() { return new global::ComboBoxAnimation.Controls.ObjectToString(); }
+        private object Activate_23_DoubleToGridLength() { return new global::ComboBoxAnimation.Controls.DoubleToGridLength(); }
         private void VectorAdd_2_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::ComboBoxAnimation.ViewModel.User>)instance;
@@ -246,6 +257,7 @@ namespace ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo
                 userType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_0_ModelView;
                 userType.AddMemberName("Users");
+                userType.AddMemberName("SelectedPage");
                 userType.AddMemberName("AddUser");
                 userType.AddMemberName("SelectUser");
                 userType.SetIsLocalType();
@@ -282,88 +294,114 @@ namespace ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo
                 xamlType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  ComboBoxAnimation.BlankPage1
-                userType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_BlankPage1;
-                userType.SetIsLocalType();
+            case 6:   //  System.Type
+                userType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 7:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 8:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 9:   //  ComboBoxAnimation.Controls.ComboBoxUser
+            case 7:   //  ComboBoxAnimation.Controls.ComboBoxUser
                 userType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_9_ComboBoxUser;
+                userType.Activator = Activate_7_ComboBoxUser;
                 userType.AddMemberName("ItemsSource");
+                userType.AddMemberName("SelectedItem");
                 userType.AddMemberName("ItemTemplate");
                 userType.AddMemberName("AddItem");
-                userType.AddMemberName("SelectedItem");
                 userType.AddMemberName("MaxCountItems");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 10:   //  Windows.UI.Xaml.Controls.Control
+            case 8:   //  Windows.UI.Xaml.Controls.Control
                 xamlType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 11:   //  Windows.UI.Xaml.DataTemplate
+            case 9:   //  Windows.UI.Xaml.DataTemplate
                 xamlType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 12:   //  Int32
+            case 10:   //  Int32
                 xamlType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 13:   //  ComboBoxAnimation.MainPage
+            case 11:   //  ComboBoxAnimation.BlankPage1
                 userType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_MainPage;
+                userType.Activator = Activate_11_BlankPage1;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 14:   //  ComboBoxAnimation.Controls.ModelViewComboBox
+            case 12:   //  Windows.UI.Xaml.Controls.Page
+                xamlType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 13:   //  Windows.UI.Xaml.Controls.UserControl
+                xamlType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 14:   //  ComboBoxAnimation.Controls.SearchBox
+                userType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
+                userType.Activator = Activate_14_SearchBox;
+                userType.AddMemberName("SearchValue");
+                userType.AddMemberName("BorderThicknessOpened");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 15:   //  Windows.UI.Xaml.Thickness
+                xamlType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 16:   //  ComboBoxAnimation.MainPage
+                userType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_16_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 17:   //  ComboBoxAnimation.Controls.ModelViewComboBox
                 userType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_14_ModelViewComboBox;
+                userType.Activator = Activate_17_ModelViewComboBox;
                 userType.AddMemberName("Lenght");
-                userType.AddMemberName("ToolsPanelHeight");
-                userType.AddMemberName("ToolsPanelWidth");
-                userType.AddMemberName("GridRootWidth");
-                userType.AddMemberName("Size");
                 userType.AddMemberName("SelItem");
                 userType.AddMemberName("IsChecked");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 15:   //  Double
+            case 18:   //  Double
                 xamlType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 16:   //  Windows.Foundation.Size
+            case 19:   //  Boolean
                 xamlType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 17:   //  Boolean
-                xamlType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 18:   //  ComboBoxAnimation.Controls.NegativeValue
+            case 20:   //  ComboBoxAnimation.Controls.ModelViewSearchBox
                 userType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_18_NegativeValue;
+                userType.Activator = Activate_20_ModelViewSearchBox;
+                userType.AddMemberName("Lenght");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 19:   //  ComboBoxAnimation.Controls.DoubleToGridLength
+            case 21:   //  ComboBoxAnimation.Controls.NegativeValue
                 userType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_19_DoubleToGridLength;
+                userType.Activator = Activate_21_NegativeValue;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 22:   //  ComboBoxAnimation.Controls.ObjectToString
+                userType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_22_ObjectToString;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 23:   //  ComboBoxAnimation.Controls.DoubleToGridLength
+                userType = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_23_DoubleToGridLength;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -392,145 +430,145 @@ namespace ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo
             var that = (global::ComboBoxAnimation.ViewModel.User)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_2_ModelView_AddUser(object instance)
+        private object get_2_ModelView_SelectedPage(object instance)
+        {
+            var that = (global::ComboBoxAnimation.ViewModel.ModelView)instance;
+            return that.SelectedPage;
+        }
+        private void set_2_ModelView_SelectedPage(object instance, object Value)
+        {
+            var that = (global::ComboBoxAnimation.ViewModel.ModelView)instance;
+            that.SelectedPage = (global::System.Type)Value;
+        }
+        private object get_3_ModelView_AddUser(object instance)
         {
             var that = (global::ComboBoxAnimation.ViewModel.ModelView)instance;
             return that.AddUser;
         }
-        private void set_2_ModelView_AddUser(object instance, object Value)
+        private void set_3_ModelView_AddUser(object instance, object Value)
         {
             var that = (global::ComboBoxAnimation.ViewModel.ModelView)instance;
             that.AddUser = (global::System.String)Value;
         }
-        private object get_3_ModelView_SelectUser(object instance)
+        private object get_4_ModelView_SelectUser(object instance)
         {
             var that = (global::ComboBoxAnimation.ViewModel.ModelView)instance;
             return that.SelectUser;
         }
-        private void set_3_ModelView_SelectUser(object instance, object Value)
+        private void set_4_ModelView_SelectUser(object instance, object Value)
         {
             var that = (global::ComboBoxAnimation.ViewModel.ModelView)instance;
             that.SelectUser = (global::ComboBoxAnimation.ViewModel.User)Value;
         }
-        private object get_4_ComboBoxUser_ItemsSource(object instance)
+        private object get_5_ComboBoxUser_ItemsSource(object instance)
         {
             var that = (global::ComboBoxAnimation.Controls.ComboBoxUser)instance;
             return that.ItemsSource;
         }
-        private void set_4_ComboBoxUser_ItemsSource(object instance, object Value)
+        private void set_5_ComboBoxUser_ItemsSource(object instance, object Value)
         {
             var that = (global::ComboBoxAnimation.Controls.ComboBoxUser)instance;
             that.ItemsSource = (global::System.Object)Value;
         }
-        private object get_5_ComboBoxUser_ItemTemplate(object instance)
-        {
-            var that = (global::ComboBoxAnimation.Controls.ComboBoxUser)instance;
-            return that.ItemTemplate;
-        }
-        private void set_5_ComboBoxUser_ItemTemplate(object instance, object Value)
-        {
-            var that = (global::ComboBoxAnimation.Controls.ComboBoxUser)instance;
-            that.ItemTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
-        }
-        private object get_6_ComboBoxUser_AddItem(object instance)
-        {
-            var that = (global::ComboBoxAnimation.Controls.ComboBoxUser)instance;
-            return that.AddItem;
-        }
-        private void set_6_ComboBoxUser_AddItem(object instance, object Value)
-        {
-            var that = (global::ComboBoxAnimation.Controls.ComboBoxUser)instance;
-            that.AddItem = (global::System.String)Value;
-        }
-        private object get_7_ComboBoxUser_SelectedItem(object instance)
+        private object get_6_ComboBoxUser_SelectedItem(object instance)
         {
             var that = (global::ComboBoxAnimation.Controls.ComboBoxUser)instance;
             return that.SelectedItem;
         }
-        private void set_7_ComboBoxUser_SelectedItem(object instance, object Value)
+        private void set_6_ComboBoxUser_SelectedItem(object instance, object Value)
         {
             var that = (global::ComboBoxAnimation.Controls.ComboBoxUser)instance;
             that.SelectedItem = (global::System.Object)Value;
         }
-        private object get_8_ComboBoxUser_MaxCountItems(object instance)
+        private object get_7_ComboBoxUser_ItemTemplate(object instance)
+        {
+            var that = (global::ComboBoxAnimation.Controls.ComboBoxUser)instance;
+            return that.ItemTemplate;
+        }
+        private void set_7_ComboBoxUser_ItemTemplate(object instance, object Value)
+        {
+            var that = (global::ComboBoxAnimation.Controls.ComboBoxUser)instance;
+            that.ItemTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_8_ComboBoxUser_AddItem(object instance)
+        {
+            var that = (global::ComboBoxAnimation.Controls.ComboBoxUser)instance;
+            return that.AddItem;
+        }
+        private void set_8_ComboBoxUser_AddItem(object instance, object Value)
+        {
+            var that = (global::ComboBoxAnimation.Controls.ComboBoxUser)instance;
+            that.AddItem = (global::System.String)Value;
+        }
+        private object get_9_ComboBoxUser_MaxCountItems(object instance)
         {
             var that = (global::ComboBoxAnimation.Controls.ComboBoxUser)instance;
             return that.MaxCountItems;
         }
-        private void set_8_ComboBoxUser_MaxCountItems(object instance, object Value)
+        private void set_9_ComboBoxUser_MaxCountItems(object instance, object Value)
         {
             var that = (global::ComboBoxAnimation.Controls.ComboBoxUser)instance;
             that.MaxCountItems = (global::System.Int32)Value;
         }
-        private object get_9_ModelViewComboBox_Lenght(object instance)
+        private object get_10_SearchBox_SearchValue(object instance)
+        {
+            var that = (global::ComboBoxAnimation.Controls.SearchBox)instance;
+            return that.SearchValue;
+        }
+        private void set_10_SearchBox_SearchValue(object instance, object Value)
+        {
+            var that = (global::ComboBoxAnimation.Controls.SearchBox)instance;
+            that.SearchValue = (global::System.String)Value;
+        }
+        private object get_11_SearchBox_BorderThicknessOpened(object instance)
+        {
+            var that = (global::ComboBoxAnimation.Controls.SearchBox)instance;
+            return that.BorderThicknessOpened;
+        }
+        private void set_11_SearchBox_BorderThicknessOpened(object instance, object Value)
+        {
+            var that = (global::ComboBoxAnimation.Controls.SearchBox)instance;
+            that.BorderThicknessOpened = (global::Windows.UI.Xaml.Thickness)Value;
+        }
+        private object get_12_ModelViewComboBox_Lenght(object instance)
         {
             var that = (global::ComboBoxAnimation.Controls.ModelViewComboBox)instance;
             return that.Lenght;
         }
-        private void set_9_ModelViewComboBox_Lenght(object instance, object Value)
+        private void set_12_ModelViewComboBox_Lenght(object instance, object Value)
         {
             var that = (global::ComboBoxAnimation.Controls.ModelViewComboBox)instance;
             that.Lenght = (global::System.Double)Value;
         }
-        private object get_10_ModelViewComboBox_ToolsPanelHeight(object instance)
-        {
-            var that = (global::ComboBoxAnimation.Controls.ModelViewComboBox)instance;
-            return that.ToolsPanelHeight;
-        }
-        private void set_10_ModelViewComboBox_ToolsPanelHeight(object instance, object Value)
-        {
-            var that = (global::ComboBoxAnimation.Controls.ModelViewComboBox)instance;
-            that.ToolsPanelHeight = (global::System.Double)Value;
-        }
-        private object get_11_ModelViewComboBox_ToolsPanelWidth(object instance)
-        {
-            var that = (global::ComboBoxAnimation.Controls.ModelViewComboBox)instance;
-            return that.ToolsPanelWidth;
-        }
-        private void set_11_ModelViewComboBox_ToolsPanelWidth(object instance, object Value)
-        {
-            var that = (global::ComboBoxAnimation.Controls.ModelViewComboBox)instance;
-            that.ToolsPanelWidth = (global::System.Double)Value;
-        }
-        private object get_12_ModelViewComboBox_GridRootWidth(object instance)
-        {
-            var that = (global::ComboBoxAnimation.Controls.ModelViewComboBox)instance;
-            return that.GridRootWidth;
-        }
-        private void set_12_ModelViewComboBox_GridRootWidth(object instance, object Value)
-        {
-            var that = (global::ComboBoxAnimation.Controls.ModelViewComboBox)instance;
-            that.GridRootWidth = (global::System.Double)Value;
-        }
-        private object get_13_ModelViewComboBox_Size(object instance)
-        {
-            var that = (global::ComboBoxAnimation.Controls.ModelViewComboBox)instance;
-            return that.Size;
-        }
-        private void set_13_ModelViewComboBox_Size(object instance, object Value)
-        {
-            var that = (global::ComboBoxAnimation.Controls.ModelViewComboBox)instance;
-            that.Size = (global::Windows.Foundation.Size)Value;
-        }
-        private object get_14_ModelViewComboBox_SelItem(object instance)
+        private object get_13_ModelViewComboBox_SelItem(object instance)
         {
             var that = (global::ComboBoxAnimation.Controls.ModelViewComboBox)instance;
             return that.SelItem;
         }
-        private void set_14_ModelViewComboBox_SelItem(object instance, object Value)
+        private void set_13_ModelViewComboBox_SelItem(object instance, object Value)
         {
             var that = (global::ComboBoxAnimation.Controls.ModelViewComboBox)instance;
             that.SelItem = (global::System.Int32)Value;
         }
-        private object get_15_ModelViewComboBox_IsChecked(object instance)
+        private object get_14_ModelViewComboBox_IsChecked(object instance)
         {
             var that = (global::ComboBoxAnimation.Controls.ModelViewComboBox)instance;
             return that.IsChecked;
         }
-        private void set_15_ModelViewComboBox_IsChecked(object instance, object Value)
+        private void set_14_ModelViewComboBox_IsChecked(object instance, object Value)
         {
             var that = (global::ComboBoxAnimation.Controls.ModelViewComboBox)instance;
             that.IsChecked = (global::System.Boolean)Value;
+        }
+        private object get_15_ModelViewSearchBox_Lenght(object instance)
+        {
+            var that = (global::ComboBoxAnimation.Controls.ModelViewSearchBox)instance;
+            return that.Lenght;
+        }
+        private void set_15_ModelViewSearchBox_Lenght(object instance, object Value)
+        {
+            var that = (global::ComboBoxAnimation.Controls.ModelViewSearchBox)instance;
+            that.Lenght = (global::System.Double)Value;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -552,94 +590,96 @@ namespace ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo
                 xamlMember.Getter = get_1_User_Name;
                 xamlMember.Setter = set_1_User_Name;
                 break;
+            case "ComboBoxAnimation.ViewModel.ModelView.SelectedPage":
+                userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.ViewModel.ModelView");
+                xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "SelectedPage", "System.Type");
+                xamlMember.Getter = get_2_ModelView_SelectedPage;
+                xamlMember.Setter = set_2_ModelView_SelectedPage;
+                break;
             case "ComboBoxAnimation.ViewModel.ModelView.AddUser":
                 userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.ViewModel.ModelView");
                 xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "AddUser", "String");
-                xamlMember.Getter = get_2_ModelView_AddUser;
-                xamlMember.Setter = set_2_ModelView_AddUser;
+                xamlMember.Getter = get_3_ModelView_AddUser;
+                xamlMember.Setter = set_3_ModelView_AddUser;
                 break;
             case "ComboBoxAnimation.ViewModel.ModelView.SelectUser":
                 userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.ViewModel.ModelView");
                 xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "SelectUser", "ComboBoxAnimation.ViewModel.User");
-                xamlMember.Getter = get_3_ModelView_SelectUser;
-                xamlMember.Setter = set_3_ModelView_SelectUser;
+                xamlMember.Getter = get_4_ModelView_SelectUser;
+                xamlMember.Setter = set_4_ModelView_SelectUser;
                 break;
             case "ComboBoxAnimation.Controls.ComboBoxUser.ItemsSource":
                 userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.ComboBoxUser");
                 xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "ItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_4_ComboBoxUser_ItemsSource;
-                xamlMember.Setter = set_4_ComboBoxUser_ItemsSource;
-                break;
-            case "ComboBoxAnimation.Controls.ComboBoxUser.ItemTemplate":
-                userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.ComboBoxUser");
-                xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "ItemTemplate", "Windows.UI.Xaml.DataTemplate");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_5_ComboBoxUser_ItemTemplate;
-                xamlMember.Setter = set_5_ComboBoxUser_ItemTemplate;
-                break;
-            case "ComboBoxAnimation.Controls.ComboBoxUser.AddItem":
-                userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.ComboBoxUser");
-                xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "AddItem", "String");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_6_ComboBoxUser_AddItem;
-                xamlMember.Setter = set_6_ComboBoxUser_AddItem;
+                xamlMember.Getter = get_5_ComboBoxUser_ItemsSource;
+                xamlMember.Setter = set_5_ComboBoxUser_ItemsSource;
                 break;
             case "ComboBoxAnimation.Controls.ComboBoxUser.SelectedItem":
                 userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.ComboBoxUser");
                 xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_7_ComboBoxUser_SelectedItem;
-                xamlMember.Setter = set_7_ComboBoxUser_SelectedItem;
+                xamlMember.Getter = get_6_ComboBoxUser_SelectedItem;
+                xamlMember.Setter = set_6_ComboBoxUser_SelectedItem;
+                break;
+            case "ComboBoxAnimation.Controls.ComboBoxUser.ItemTemplate":
+                userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.ComboBoxUser");
+                xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "ItemTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_7_ComboBoxUser_ItemTemplate;
+                xamlMember.Setter = set_7_ComboBoxUser_ItemTemplate;
+                break;
+            case "ComboBoxAnimation.Controls.ComboBoxUser.AddItem":
+                userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.ComboBoxUser");
+                xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "AddItem", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_8_ComboBoxUser_AddItem;
+                xamlMember.Setter = set_8_ComboBoxUser_AddItem;
                 break;
             case "ComboBoxAnimation.Controls.ComboBoxUser.MaxCountItems":
                 userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.ComboBoxUser");
                 xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "MaxCountItems", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_8_ComboBoxUser_MaxCountItems;
-                xamlMember.Setter = set_8_ComboBoxUser_MaxCountItems;
+                xamlMember.Getter = get_9_ComboBoxUser_MaxCountItems;
+                xamlMember.Setter = set_9_ComboBoxUser_MaxCountItems;
+                break;
+            case "ComboBoxAnimation.Controls.SearchBox.SearchValue":
+                userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.SearchBox");
+                xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "SearchValue", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_10_SearchBox_SearchValue;
+                xamlMember.Setter = set_10_SearchBox_SearchValue;
+                break;
+            case "ComboBoxAnimation.Controls.SearchBox.BorderThicknessOpened":
+                userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.SearchBox");
+                xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "BorderThicknessOpened", "Windows.UI.Xaml.Thickness");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_11_SearchBox_BorderThicknessOpened;
+                xamlMember.Setter = set_11_SearchBox_BorderThicknessOpened;
                 break;
             case "ComboBoxAnimation.Controls.ModelViewComboBox.Lenght":
                 userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.ModelViewComboBox");
                 xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "Lenght", "Double");
-                xamlMember.Getter = get_9_ModelViewComboBox_Lenght;
-                xamlMember.Setter = set_9_ModelViewComboBox_Lenght;
-                break;
-            case "ComboBoxAnimation.Controls.ModelViewComboBox.ToolsPanelHeight":
-                userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.ModelViewComboBox");
-                xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "ToolsPanelHeight", "Double");
-                xamlMember.Getter = get_10_ModelViewComboBox_ToolsPanelHeight;
-                xamlMember.Setter = set_10_ModelViewComboBox_ToolsPanelHeight;
-                break;
-            case "ComboBoxAnimation.Controls.ModelViewComboBox.ToolsPanelWidth":
-                userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.ModelViewComboBox");
-                xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "ToolsPanelWidth", "Double");
-                xamlMember.Getter = get_11_ModelViewComboBox_ToolsPanelWidth;
-                xamlMember.Setter = set_11_ModelViewComboBox_ToolsPanelWidth;
-                break;
-            case "ComboBoxAnimation.Controls.ModelViewComboBox.GridRootWidth":
-                userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.ModelViewComboBox");
-                xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "GridRootWidth", "Double");
-                xamlMember.Getter = get_12_ModelViewComboBox_GridRootWidth;
-                xamlMember.Setter = set_12_ModelViewComboBox_GridRootWidth;
-                break;
-            case "ComboBoxAnimation.Controls.ModelViewComboBox.Size":
-                userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.ModelViewComboBox");
-                xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "Size", "Windows.Foundation.Size");
-                xamlMember.Getter = get_13_ModelViewComboBox_Size;
-                xamlMember.Setter = set_13_ModelViewComboBox_Size;
+                xamlMember.Getter = get_12_ModelViewComboBox_Lenght;
+                xamlMember.Setter = set_12_ModelViewComboBox_Lenght;
                 break;
             case "ComboBoxAnimation.Controls.ModelViewComboBox.SelItem":
                 userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.ModelViewComboBox");
                 xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "SelItem", "Int32");
-                xamlMember.Getter = get_14_ModelViewComboBox_SelItem;
-                xamlMember.Setter = set_14_ModelViewComboBox_SelItem;
+                xamlMember.Getter = get_13_ModelViewComboBox_SelItem;
+                xamlMember.Setter = set_13_ModelViewComboBox_SelItem;
                 break;
             case "ComboBoxAnimation.Controls.ModelViewComboBox.IsChecked":
                 userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.ModelViewComboBox");
                 xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "IsChecked", "Boolean");
-                xamlMember.Getter = get_15_ModelViewComboBox_IsChecked;
-                xamlMember.Setter = set_15_ModelViewComboBox_IsChecked;
+                xamlMember.Getter = get_14_ModelViewComboBox_IsChecked;
+                xamlMember.Setter = set_14_ModelViewComboBox_IsChecked;
+                break;
+            case "ComboBoxAnimation.Controls.ModelViewSearchBox.Lenght":
+                userType = (global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ComboBoxAnimation.Controls.ModelViewSearchBox");
+                xamlMember = new global::ComboBoxAnimation.ComboBoxAnimation_XamlTypeInfo.XamlMember(this, "Lenght", "Double");
+                xamlMember.Getter = get_15_ModelViewSearchBox_Lenght;
+                xamlMember.Setter = set_15_ModelViewSearchBox_Lenght;
                 break;
             }
             return xamlMember;
